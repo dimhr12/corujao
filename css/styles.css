@@ -69,6 +69,21 @@
   box-sizing: border-box;
 }
 
+.ripple-surface {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bg-image {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -11432,7 +11447,7 @@ html {
   width: 15rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 392px) {
   .masthead {
     padding-top: calc(8rem);
     padding-bottom: 1rem;
@@ -11513,11 +11528,13 @@ html {
     font-weight: 700;
     color: #5d4267;
   }
-  .card.colorful-card .testimonial-card .card-up {
-    height: 95px;
-  }
+  
+
   .card.colorful-card .testimonial-card .avatar {
     border: 3px solid #fff !important;
+    max-width: 250px;
+    max-height: 250px;
+
   }
   .card.booking-card {
     background-color: #c7f2e3;
