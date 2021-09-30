@@ -55,17 +55,41 @@
             "Ulisses Rosso Júnior (Chupim)",
             "Rudimar Griebler (Rudi)"
         ],
-        "gols": {
-            "Douglas Faoro": 2,
-            "Sadi Dahlem": 1,
-            "Durval (Neguinho)": 1,
-            "Dimas Rockenbach": 1,
-            "Diego Woiciekoski": 5,
-            "Róger Eduardo Witcak": 1,
-            "Leandro Dahlem": 3,
-            "Mauro Burgel": 1,
-            "Ulisses Rosso Júnior (Chupim)": 4,
-            "Rudimar Griebler (Rudi)": 2
-        }
+        "eventos": [
+            {
+                "minuto": 2,
+                "tipo": "GOL",
+                "jogador": "Douglas Faoro",
+                "assistencia": "Diego Woiciekoski"
+            },
+            {
+                "minuto": 5,
+                "tipo": "GOL_CONTRA",
+                "jogador": "Ulisses Rosso Júnior (Chupim)"
+            },
+            {
+                "minuto": 15,
+                "tipo": "GOL",
+                "jogador": "Mauro Burgel"
+            },
+            {
+                "minuto": 17,
+                "tipo": "CARTAO_AMARELO",
+                "jogador": "Mauro Burgel"
+            },
+            {
+                "minuto": 30,
+                "tipo": "SUBSTITUICAO",
+                "sai": "Diego Woiciekoski",
+                "entra": "Dimas Rockenbach"
+            },
+            {
+                "minuto": 31,
+                "tipo": "PENALTI",
+                "batedor": "Diego Woiciekoski",
+                "causador": "Dimas Rockenbach",
+                "convertido": true
+            }
+        ]
     }
 ]
