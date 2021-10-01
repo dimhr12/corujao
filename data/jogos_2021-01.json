@@ -1,0 +1,95 @@
+[
+    {
+        "data": "2021-01-02",
+        "jogadores_t1": [
+            "Régis Witcak",
+            "Gabriel Hetwer",
+            "Sadi Dahlem",
+            "Pedrinho",
+            "Giuliano Motta",
+            "Dimas Rockenbach",
+            "Mateus Caraffa Casali (Mire)",
+            "Ulisses Rosso Júnior (Chupim)",
+            "Rudimar Griebler (Rudi)"
+        ],
+        "jogadores_t2": [
+            "Kavera",
+            "Douglas Faoro",
+            "Durval (Neguinho)",
+            "Rogério Stein",
+            "Diego Avozani (Polenta)",
+            "Róger Eduardo Witcak",
+            "Mauro Burgel",
+            "Diego Woiciekoski",
+            "Tiago Schneider (Puffe)",
+            "Tiago (Motomaio)"
+        ],
+        "gols": {
+            "Dimas Rockenbach": 2,
+            "Rudimar Griebler (Rudi)": 2,
+            "Douglas Faoro": 1,
+            "Diego Avozani (Polenta)": 1,
+            "Mauro Burgel": 1,
+            "Diego Woiciekoski": 3,
+            "Tiago (Motomaio)": 1
+        }
+    },
+    {
+        "data": "2021-01-09",
+        "jogadores_t1": [
+            "Luciano Winck",
+            "Douglas Faoro",
+            "Sadi Dahlem",
+            "Durval (Neguinho)",
+            "Claudionei Gewehr",
+            "Dimas Rockenbach",
+            "Diego Woiciekoski"
+        ],
+        "jogadores_t2": [
+            "Régis Witcak",
+            "Gabriel Hetwer",
+            "Pedro Jair Sulzbach de Mello (Mimo)",
+            "Róger Eduardo Witcak",
+            "Leandro Dahlem",
+            "Mauro Burgel",
+            "Ulisses Rosso Júnior (Chupim)",
+            "Rudimar Griebler (Rudi)"
+        ],
+        "eventos": [
+            {
+                "minuto": 2,
+                "tipo": "GOL",
+                "jogador": "Douglas Faoro",
+                "assistencia": "Diego Woiciekoski"
+            },
+            {
+                "minuto": 5,
+                "tipo": "GOL_CONTRA",
+                "jogador": "Ulisses Rosso Júnior (Chupim)"
+            },
+            {
+                "minuto": 15,
+                "tipo": "GOL",
+                "jogador": "Mauro Burgel"
+            },
+            {
+                "minuto": 17,
+                "tipo": "CARTAO_AMARELO",
+                "jogador": "Mauro Burgel"
+            },
+            {
+                "minuto": 30,
+                "tipo": "SUBSTITUICAO",
+                "sai": "Diego Woiciekoski",
+                "entra": "Dimas Rockenbach"
+            },
+            {
+                "minuto": 31,
+                "tipo": "PENALTI",
+                "batedor": "Diego Woiciekoski",
+                "causador": "Dimas Rockenbach",
+                "convertido": true
+            }
+        ]
+    }
+]

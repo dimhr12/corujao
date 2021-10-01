@@ -1,0 +1,370 @@
+{
+    "Alan Gabriel Fernandes Padilha": {
+        "nome": "Alan Gabriel Fernandes Padilha",
+        "descricao": "Zagueiro raiz, não perde a viagem.<br>Pode passar a bola ou o jogador. Os dois, não.",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z", "G"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Antônio Dallavechia (Tonhão)": {
+        "nome": "Antônio Dallavechia (Tonhão)",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Bruno Lopes Cardoso": {
+        "nome": "Bruno Lopes Cardoso",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Claudionei Gewehr": {
+        "nome": "Claudionei Gewehr",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Diego Avozani (Polenta)": {
+        "nome": "Diego Avozani (Polenta)",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Diego Woiciekoski": {
+        "nome": "Diego Woiciekoski",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Dimas Rockenbach": {
+        "nome": "Dimas Rockenbach",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Diogo Cansi": {
+        "nome": "Diogo Cansi",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Douglas Faoro": {
+        "nome": "Douglas Faoro",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Durval (Neguinho)": {
+        "nome": "Durval (Neguinho)",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Eduardo Ceccon": {
+        "nome": "Eduardo Ceccon",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Eduardo Dallavechia (Bola)": {
+        "nome": "Eduardo Dallavechia (Bola)",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Gabriel Hetwer": {
+        "nome": "Gabriel Hetwer",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Gelson Monteiro": {
+        "nome": "Gelson Monteiro",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Gerson Luís Daniel": {
+        "nome": "Gerson Luís Daniel",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Gerson Thomazi": {
+        "nome": "Gerson Thomazi",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Giuliano Motta": {
+        "nome": "Giuliano Motta",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Guilherme Fabris": {
+        "nome": "Guilherme Fabris",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Henrique Marasca": {
+        "nome": "Henrique Marasca",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Jaques Beck": {
+        "nome": "Jaques Beck",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Jardel Thomazi (Tato)": {
+        "nome": "Jardel Thomazi (Tato)",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Kleber Ristof": {
+        "nome": "Kleber Ristof",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Leandro Dahlem": {
+        "nome": "Leandro Dahlem",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Leonardo Dahlem (Loli)": {
+        "nome": "Leonardo Dahlem (Loli)",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Luan Cassol": {
+        "nome": "Luan Cassol",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Luciano Winck": {
+        "nome": "Luciano Winck",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Luís Henrique Wilkomm": {
+        "nome": "Luís Henrique Wilkomm",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Luiz Fernando Fiorim": {
+        "nome": "Luiz Fernando Fiorim",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Magnus Sartori (Gaita)": {
+        "nome": "Magnus Sartori (Gaita)",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Marcel Knüppe (Chiquinho)": {
+        "nome": "Marcel Knüppe (Chiquinho)",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Marcelo Streicher": {
+        "nome": "Marcelo Streicher",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Marcos Benedetti Corso": {
+        "nome": "Marcos Benedetti Corso",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Mateus Caraffa Casali (Mire)": {
+        "nome": "Mateus Caraffa Casali (Mire)",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Maurício Streicher": {
+        "nome": "Maurício Streicher",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Mauro Burgel": {
+        "nome": "Mauro Burgel",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Murilo Hoffmann": {
+        "nome": "Murilo Hoffmann",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Pedro Jair Sulzbach de Mello (Mimo)": {
+        "nome": "Pedro Jair Sulzbach de Mello (Mimo)",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Régis Witcak": {
+        "nome": "Régis Witcak",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Ricardo Segatto": {
+        "nome": "Ricardo Segatto",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Róger Eduardo Witcak": {
+        "nome": "Róger Eduardo Witcak",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Rogério Stein": {
+        "nome": "Rogério Stein",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Rudimar Griebler (Rudi)": {
+        "nome": "Rudimar Griebler (Rudi)",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Sadi Dahlem": {
+        "nome": "Sadi Dahlem",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Tiago Rockenbach": {
+        "nome": "Tiago Rockenbach",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Tiago Schneider (Puffe)": {
+        "nome": "Tiago Schneider (Puffe)",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    },
+    "Ulisses Rosso Júnior (Chupim)": {
+        "nome": "Ulisses Rosso Júnior (Chupim)",
+        "descricao": "",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["Z"],
+        "altura": 170,
+        "nascimento": "1970-01-01"
+    }
+}
