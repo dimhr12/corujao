@@ -1,7 +1,7 @@
 [
     {
         "data": "2021-01-02",
-        "jogadores_t1": [
+        "jogadores_branco": [
             "Régis Witcak",
             "Gabriel Hetwer",
             "Sadi Dahlem",
@@ -12,10 +12,10 @@
             "Ulisses Rosso Júnior (Chupim)",
             "Rudimar Griebler (Rudi)"
         ],
-        "jogadores_t2": [
+        "jogadores_verde": [
             "Kavera",
             "Douglas Faoro",
-            "Durval (Neguinho)",
+            "Eri (Neguinho)",
             "Rogério Stein",
             "Diego Avozani (Polenta)",
             "Róger Eduardo Witcak",
@@ -24,28 +24,76 @@
             "Tiago Schneider (Puffe)",
             "Tiago (Motomaio)"
         ],
-        "gols": {
-            "Dimas Rockenbach": 2,
-            "Rudimar Griebler (Rudi)": 2,
-            "Douglas Faoro": 1,
-            "Diego Avozani (Polenta)": 1,
-            "Mauro Burgel": 1,
-            "Diego Woiciekoski": 3,
-            "Tiago (Motomaio)": 1
-        }
+        "eventos": [
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Dimas Rockenbach"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Dimas Rockenbach"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Rudimar Griebler (Rudi)"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Rudimar Griebler (Rudi)"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Douglas Faoro"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Diego Avozani (Polenta)"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Mauro Burgel"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Diego Woiciekoski"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Diego Woiciekoski"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Diego Woiciekoski"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Tiago (Motomaio)"
+            }
+        ]
     },
     {
         "data": "2021-01-09",
-        "jogadores_t1": [
+        "jogadores_branco": [
             "Luciano Winck",
             "Douglas Faoro",
             "Sadi Dahlem",
-            "Durval (Neguinho)",
+            "Eri (Neguinho)",
             "Claudionei Gewehr",
             "Dimas Rockenbach",
             "Diego Woiciekoski"
         ],
-        "jogadores_t2": [
+        "jogadores_verde": [
             "Régis Witcak",
             "Gabriel Hetwer",
             "Pedro Jair Sulzbach de Mello (Mimo)",
@@ -57,38 +105,472 @@
         ],
         "eventos": [
             {
-                "minuto": 2,
                 "tipo": "GOL",
-                "jogador": "Douglas Faoro",
-                "assistencia": "Diego Woiciekoski"
+                "time": "BRANCO",
+                "jogador": "Douglas Faoro"
             },
             {
-                "minuto": 5,
-                "tipo": "GOL_CONTRA",
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Douglas Faoro"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Sadi Dahlem"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Eri (Neguinho)"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Dimas Rockenbach"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Diego Woiciekoski"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Diego Woiciekoski"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Diego Woiciekoski"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Diego Woiciekoski"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Diego Woiciekoski"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Róger Eduardo Witcak"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Leandro Dahlem"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Leandro Dahlem"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Leandro Dahlem"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Mauro Burgel"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
                 "jogador": "Ulisses Rosso Júnior (Chupim)"
             },
             {
-                "minuto": 15,
                 "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Ulisses Rosso Júnior (Chupim)"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Ulisses Rosso Júnior (Chupim)"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Ulisses Rosso Júnior (Chupim)"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Rudimar Griebler (Rudi)"
+            },            
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Rudimar Griebler (Rudi)"
+            }
+        ]
+    },
+    {
+        "data": "2021-01-16",
+        "jogadores_branco": [
+            "Kavera",
+            "Gabriel Hetwer",
+            "Sadi Dahlem",
+            "Gelson Monteiro",
+            "Claudionei Gewehr",
+            "Dimas Rockenbach",
+            "Mauro Burgel",
+            "Maurício Streicher",
+            "Eberton (Chitão)"
+        ],
+        "jogadores_verde": [
+            "Régis Witcak",
+            "Douglas Faoro",
+            "Leandro Dahlem",
+            "Giuliano Motta",
+            "Luan Cassol",
+            "Róger Eduardo Witcak",
+            "Diego Woiciekoski",
+            "Luís Henrique Wilkomm",
+            "Ulisses Rosso Júnior (Chupim)"
+        ],
+        "eventos": [
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Gabriel Hetwer"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Gelson Monteiro"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Dimas Rockenbach"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Dimas Rockenbach"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Dimas Rockenbach"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
                 "jogador": "Mauro Burgel"
             },
             {
-                "minuto": 17,
-                "tipo": "CARTAO_AMARELO",
+                "tipo": "GOL",
+                "time": "BRANCO",
                 "jogador": "Mauro Burgel"
             },
             {
-                "minuto": 30,
-                "tipo": "SUBSTITUICAO",
-                "sai": "Diego Woiciekoski",
-                "entra": "Dimas Rockenbach"
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Mauro Burgel"
             },
             {
-                "minuto": 31,
-                "tipo": "PENALTI",
-                "batedor": "Diego Woiciekoski",
-                "causador": "Dimas Rockenbach",
-                "convertido": true
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Maurício Streicher"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Maurício Streicher"
+            },
+            {
+                "tipo": "GOL",
+                "time": "BRANCO",
+                "jogador": "Eberton (Chitão)"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Luan Cassol"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Róger Eduardo Witcak"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Róger Eduardo Witcak"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Diego Woiciekoski"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Ulisses Rosso Júnior (Chupim)"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Ulisses Rosso Júnior (Chupim)"
+            },
+            {
+                "tipo": "GOL",
+                "time": "VERDE",
+                "jogador": "Ulisses Rosso Júnior (Chupim)"
+            },
+            {
+                "tipo": "GOL_CONTRA",
+                "time": "VERDE",
+                "jogador": "Dimas Henrique Rockenbach"
+            }
+        ]
+
+    },
+    {
+        "data": "2021-01-23",
+        "jogadores_branco": [
+            "Kavera",
+            "Douglas Faoro",
+            "Sadi Dahlem",
+            "Giuliano Motta",
+            "Claudionei Gewehr",
+            "Dimas Rockenbach",
+            "Diego Woiciekoski",
+            "Guilherme Fabris",
+            "Pedrinho",
+            "Cristiano Francesco Dill"
+        ],
+        "jogadores_verde": [
+            "Régis Witcak",
+            "Gabriel Hetwer",
+            "Leandro Dahlem",
+            "Pedro Jair Sulzbach de Mello (Mimo)",
+            "Luan Cassol",
+            "Róger Eduardo Witcak",
+            "Mateus Caraffa Casali (Mire)",
+            "Gelson Monteiro",
+            "Ulisses Rosso Júnior (Chupim)",
+            "Lucas Dill"
+        ],
+        "eventos": [
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Douglas Faoro"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Giuliano Motta"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Giuliano Motta"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Giuliano Motta"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Claudionei Gewehr"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Claudionei Gewehr"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Dimas Rockenbach"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Dimas Rockenbach"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Dimas Rockenbach"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Diego Woiciekoski"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Diego Woiciekoski"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Diego Woiciekoski"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Luan Cassol"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Luan Cassol"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Luan Cassol"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Róger Eduardo Witcak"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Mateus Caraffa Casali (Mire)"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Mateus Caraffa Casali (Mire)"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Mateus Caraffa Casali (Mire)"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Ulisses Rosso Júnior (Chupim)"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Ulisses Rosso Júnior (Chupim)"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Ulisses Rosso Júnior (Chupim)"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Ulisses Rosso Júnior (Chupim)"
+            }
+        ]
+    },
+    {
+        "data": "2021-01-30",
+        "jogadores_branco": [
+            "Régis Witcak",
+            "Douglas Faoro",
+            "Sadi Dahlem",
+            "Giuliano Motta",
+            "Róger Eduardo Witcak",
+            "Dimas Rockenbach",
+            "Mauro Burgel",
+            "Guilherme Fabris",
+            "Eri (Neguinho)"
+        ],
+        "jogadores_verde": [
+            "Lúcio",
+            "Gabriel Hetwer",
+            "Gelson Monteiro",
+            "Leandro Dahlem",
+            "Claudionei Gewehr",
+            "Luan Cassol",
+            "Mateus Caraffa Casali (Mire)",
+            "Pedrinho"
+        ],
+        "eventos": [
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Douglas Faoro"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Giuliano Motta"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Dimas Rockenbach"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Dimas Rockenbach"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Mauro Burgel"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Mauro Burgel"
+            },
+            {
+                "tipo": "GOL",
+                "time":"BRANCO",
+                "jogador": "Mauro Burgel"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Luan Cassol"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Mateus Caraffa Casali (Mire)"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Mateus Caraffa Casali (Mire)"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Mateus Caraffa Casali (Mire)"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Mateus Caraffa Casali (Mire)"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Mateus Caraffa Casali (Mire)"
+            },
+            {
+                "tipo": "GOL",
+                "time":"VERDE",
+                "jogador": "Pedrinho"
             }
         ]
     }
