@@ -1,0 +1,145 @@
+
+<!-- Masthead bg-primary   -->
+<div class="image">
+    <header class="masthead text-white text-center">
+        <div class="container d-flex align-items-center align-content-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar m-3" src="assets/img/corujao.png" alt="S.E.R. Corujão" />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase m-4">S.E.R. Corujão</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light ">Futebol - Corneta - Cerveja - Churrasco</p>
+            <p class="masthead-subheading font-weight-light ">Não necessariamente nessa ordem</p>
+        </div>
+    </header>
+</div>
+
+<!-- Portfolio Section-->
+<section class="page-section portfolio" id="menu">
+    <div class="container">
+        <!-- Portfolio Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">MENU</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Portfolio Grid Items-->
+        <div class="container-sm">
+            <!-- Card deck -->
+            <div class="card-deck">
+                <div class="row row-cols-3">
+                    <div class="col col-md-4">
+                        <!-- Card -->
+                        <a [routerLink]="['/ranking']">
+                            <div class="card">
+                                <!--Card image-->
+                                <div class="view overlay">
+                                    <img class="card-img-top" src="assets/img/ranking3.png" alt="Ranking">
+                                    <div class="mask rgba-white-slight"></div>
+                                </div>
+                                <!--Card content-->
+                                <div class="card-body text-secondary">
+                                    <!--Title-->
+                                    <h3 class="card-title text-center">Ranking</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card -->
+                    <div class="col col-md-4">
+                        <!-- Card -->
+                        <a [routerLink]="['/resultados']">
+                            <div class="card">
+                                <!--Card image-->
+                                <div class="view overlay">
+                                    <img class="card-img-top img-fluid" src="assets/img/tables.png" alt="Resultados">
+                                    <div class="mask rgba-white-slight"></div>
+                                </div>
+                                <!--Card content-->
+                                <div class="card-body text-secondary">
+                                    <!--Title-->
+                                    <h3 class="card-title text-center">Resultados</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- Card -->
+                    </div>
+                    <div class="col col-md-4">
+                        <!-- Card -->
+                        <a [routerLink]="['/jogadores']">
+                            <div class="card">
+                                <!--Card image-->
+                                <div class="view overlay">
+                                    <img class="card-img-top img-fluid" src="assets/img/jogador2.png" alt="Jogadores">
+                                    <div class="mask rgba-white-slight"></div>
+                                </div>
+                                <!--Card content-->
+                                <div class="card-body text-secondary">
+                                    <!--Title-->
+                                    <h3 class="card-title text-center">Jogadores</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- Card -->
+                    </div>
+                </div>
+                <!-- Card deck -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section-->
+<section class="page-section bg-primary text-white mb-0" id="about">
+    <div class="container">
+        <!-- About Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-white">Quem somos</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- About Section Content-->
+        <div class="row">
+            <div class="col-lg-4 ms-auto"><p class="lead">Somos um bando de pernas de pau, mas que prezamos pela amizade e pelo esporte. Nos reunimos semanalmente para correr atrás de um pedaço de couro inflado com ar.<br> Parece simples, mas não é.</p></div>
+            
+            <div class="col-lg-4 me-auto"><p class="lead">É claro que discutimos, brigamos, nos estressamos mas também desestressamos, damos risada, nos divertimos muito, presenciamos algumas cenas dignas de Bola Cheia e muitas outras de Bola Murcha.</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section-->
+<section class="page-section" id="contact">
+    <div class="container">
+        <!-- Contact Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Localização</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Contact Section Form-->
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <div class="row">
+                    <!--Google map-->
+                    <div id="map-container-google-8" class="z-depth-1-half map-container-5" style="height: 300px">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7061.892164109822!2d-54.2363458!3d-27.749809!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1bd580eed0322bea!2sCampo%20do%20S.E.R.%20Coruj%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1631581512176!5m2!1spt-BR!2sbr&output=svembed"
+                            width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
