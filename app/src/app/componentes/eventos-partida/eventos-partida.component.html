@@ -1,0 +1,16 @@
+
+<h3>Eventos Partida works</h3>
+
+<div class="lista-eventos">
+    <div *ngFor="let evento of eventos" class="evento-partida">
+        <div class="bloco-placeholder" *ngIf="!isEventoTimeBranco(evento)"
+            [ngClass]="{'esquerdo': !isEventoTimeBranco(evento), 'direito': isEventoTimeBranco(evento)}"></div>
+        <div class="bloco-meio" *ngIf="!isEventoTimeBranco(evento)"></div>
+        <div class="bloco-dados-evento" [ngClass]="{'esquerdo': isEventoTimeBranco(evento), 'direito': !isEventoTimeBranco(evento)}">
+            <span>{{ evento.jogador }}</span>
+        </div>
+        <div class="bloco-meio" *ngIf="isEventoTimeBranco(evento)"></div>
+        <div class="bloco-placeholder" *ngIf="isEventoTimeBranco(evento)"
+            [ngClass]="{'esquerdo': !isEventoTimeBranco(evento), 'direito': isEventoTimeBranco(evento)}"></div>
+    </div>
+</div>
