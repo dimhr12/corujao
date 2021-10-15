@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { JogadoresService } from '../shared/servicos/jogadores.service';
 
 @Component({
   selector: 'app-jogadores',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JogadoresComponent implements OnInit {
 
-  constructor() { }
+  public jogadores$ = this.jogadoresService.buscarJogadores();
+
+  constructor(
+    private jogadoresService: JogadoresService,
+  ) { }
 
   ngOnInit(): void {
   }

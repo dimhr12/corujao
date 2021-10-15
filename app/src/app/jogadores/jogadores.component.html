@@ -3,134 +3,27 @@
 
 <!-- Coluna -->
 <div class="row justify-content-center">
-    <!-- Card 1 -->
-    <div class="card" style="max-width: 20vw; min-width: 200px; ">
-        <!-- Imagem -->
-        <div class="avatar bg-image hover-overlay ripple" data-mdb-ripple-color="light" data-bs-toggle="modal"
-            data-bs-target="#ModalGabriel">
     
-            <img src="assets/img/jogadoresCard/gabriel.png" class="rounded-circle img-fluid" alt="Gabriel Dias" />
+    <!-- Cards -->
+    <div *ngFor="let jogador of jogadores$ | async" class="card" style="max-width: 20vw; min-width: 200px; ">
+        <!-- Imagem -->
+        <div class="avatar bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+    
+            <img [src]="jogador.imagem" [alt]="jogador.nome" class="rounded-circle img-fluid" />
             <div class="mask rounded-circle img-responsive" style="background-color: rgba(251, 251, 251, 0.15);"></div>
     
             <!-- Texto do Card -->
             <div class="card-body">
                 <!-- Nome -->
-                <h4 class="card-title">Gabriel Dias</h4>
+                <h4 class="card-title">{{ jogador.nome }}</h4>
                 <hr>
                 <!-- Legenda -->
-                <p>Zagueiro raiz, não perde a viagem. <br>Pode passar a bola ou o jogador. Os dois, não.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Card 2 -->
-    <div class="card" style="max-width: 20vw; min-width: 200px;">
-        <!-- Imagem -->
-        <div class="avatar bg-image hover-overlay ripple" data-mdb-ripple-color="light" data-bs-toggle="modal"
-            data-bs-target="#ModalRoger">
-    
-            <img src="assets/img/jogadoresCard/roger.jpg" class="rounded-circle img-fluid" alt="Róger Witcak" />
-            <div class="mask rounded-circle img-responsive" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-    
-            <!-- Texto do Card -->
-            <div class="card-body">
-                <!-- Nome -->
-                <h4 class="card-title">Róger Witcak</h4>
-                <hr>
-                <!-- Legenda -->
-                <p>Transador.<br>Pelo menos, é o que ele diz.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Card 3-->
-    <div class="card" style="max-width: 20vw; min-width: 200px;">
-        <!-- Imagem -->
-        <div class="avatar bg-image hover-overlay ripple" data-mdb-ripple-color="light" data-bs-toggle="modal"
-            data-bs-target="#ModalDiegoW">
-    
-            <img src="assets/img/jogadoresCard/diegow.jpg" class="rounded-circle img-fluid" alt="Diego Woiciekoski" />
-            <div class="mask rounded-circle img-responsive" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-    
-            <!-- Texto do Card -->
-            <div class="card-body">
-                <!-- Nome -->
-                <h4 class="card-title">Diego Woiciekoski</h4>
-                <hr>
-                <!-- Legenda -->
-                <p>Personal trainer. <br>Lorem ipsum lorem ipsum</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Grid column -->
-
-</div>
-<!-- Grid row -->
-
-<div class="row justify-content-center">
-    <!-- Card 1 -->
-    <div class="card" style="max-width: 20vw; min-width: 200px;">
-        <!-- Imagem -->
-        <div class="avatar bg-image hover-overlay ripple" data-mdb-ripple-color="light" data-bs-toggle="modal"
-            data-bs-target="#ModalJog1">
-    
-            <img src="assets/img/jogador2.png" class="rounded-circle img-fluid" alt="Jogador 1" />
-            <div class="mask rounded-circle img-responsive" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-    
-            <!-- Texto do Card -->
-            <div class="card-body">
-                <!-- Nome -->
-                <h4 class="card-title">Jogador 1</h4>
-                <hr>
-                <!-- Legenda -->
-                <p>Mais um atleta. <br>Frase sobre o atleta.</p>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Card 2 -->
-    <div class="card" style="max-width: 20vw; min-width: 200px;">
-        <!-- Imagem -->
-        <div class="avatar bg-image hover-overlay ripple" data-mdb-ripple-color="light" data-bs-toggle="modal"
-            data-bs-target="#ModalJog2">
-    
-            <img src="assets/img/jogador2.png" class="rounded-circle img-fluid" alt="Jogador 2" />
-            <div class="mask rounded-circle img-responsive" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-    
-            <!-- Texto do Card -->
-            <div class="card-body">
-                <!-- Nome -->
-                <h4 class="card-title">Jogador 2</h4>
-                <hr>
-                <!-- Legenda -->
-                <p>Mais um atleta. <br>Frase sobre o atleta.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Card 3-->
-    <div class="card" style="max-width: 20vw; min-width: 200px;">
-        <!-- Imagem -->
-        <div class="avatar bg-image hover-overlay ripple" data-mdb-ripple-color="light" data-bs-toggle="modal"
-            data-bs-target="#ModalJog3">
-    
-            <img src="assets/img/jogador2.png" class="rounded-circle img-fluid" alt="Jogador 3" />
-            <div class="mask rounded-circle img-responsive" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-    
-            <!-- Texto do Card -->
-            <div class="card-body">
-                <!-- Nome -->
-                <h4 class="card-title">Jogador 3</h4>
-                <hr>
-                <!-- Legenda -->
-                <p>Mais um atleta. <br>Frase sobre o atleta.</p>
+                <p>{{ jogador.descricao }}</p>
             </div>
         </div>
     </div>
 
 </div>
-<!-- Grid row -->
 
 <!-- Portfolio Modals-->
 <!-- Portfolio Modal 1-->
@@ -161,7 +54,7 @@
             </div>
         </div>
     </div>
-</div>        
+</div>
 
 <!-- Portfolio Modal 2-->
 <div class="portfolio-modal modal fade" id="ModalRoger" tabindex="-1" aria-labelledby="ModalRoger" aria-hidden="true">

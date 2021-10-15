@@ -8,6 +8,7 @@ import { JogadoresComponent } from './jogadores/jogadores.component';
 import { ResultadosComponent } from './resultados/resultados.component';
 import { RankingComponent } from './ranking/ranking.component';
 import { ComponentesModule } from './componentes/componentes.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ComponentesModule } from './componentes/componentes.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    SharedModule,
     ComponentesModule,
   ],
   providers: [],
