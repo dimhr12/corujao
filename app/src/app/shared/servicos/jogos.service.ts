@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { EventEmitter, Injectable } from '@angular/core';
 import { Observable, Subscriber } from 'rxjs';
+import { environment } from './../../../environments/environment';
 
 import { AnosMesesJogos } from '../modelos/anos-meses-jogos';
 import { Jogo } from '../modelos/jogo';
@@ -11,7 +12,7 @@ export class JogosService {
 
   public carregouJogos: EventEmitter<void> = new EventEmitter();
 
-  private URLANOSMESESJOGOS = '/dados/jogos.json';
+  private URLANOSMESESJOGOS = 'dados/jogos.json';
   private JOGOS: any = {};
 
   constructor(
@@ -21,7 +22,7 @@ export class JogosService {
 
   private getUrlDadoJogos(ano: number, mes: number) {
     var mesFormatado = String(mes).padStart(2, '0');
-    return `/dados/jogos_${ano}-${mesFormatado}.json`;
+    return environment.baseurl + `dados/jogos_${ano}-${mesFormatado}.json`;
   }
 
   buscarJogoComDataIso(dataIso: string): Jogo | undefined {
@@ -37,7 +38,7 @@ export class JogosService {
   }
 
   carregarJogos(): void {
-    this.http.get<AnosMesesJogos[]>(this.URLANOSMESESJOGOS).subscribe(anosMeses => {
+    this.http.get<AnosMesesJogos[]>(environment.baseurl + this.URLANOSMESESJOGOS).subscribe(anosMeses => {
       anosMeses.forEach(anoMes => anoMes.meses.forEach(mes => {
         this.http.get<Jogo[]>(this.getUrlDadoJogos(anoMes.ano, mes)).subscribe(jogos => {
           if (!(anoMes.ano in this.JOGOS)) {
