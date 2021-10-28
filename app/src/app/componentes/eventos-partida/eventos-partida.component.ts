@@ -1,8 +1,12 @@
 import { Component, Input } from '@angular/core';
-import { TimeEnum } from 'src/app/shared/enums/time.enum';
+import { Observable } from 'rxjs';
 
+import { TimeEnum } from '../../shared/enums/time.enum';
+import { TipoEventoJogo } from '../../shared/enums/tipo-evento-jogo.enum';
 import { EventoJogo } from '../../shared/modelos/evento-jogo';
 import { Jogador } from '../../shared/modelos/jogador';
+import { Jogo } from '../../shared/modelos/jogo';
+import { JogadoresService } from '../../shared/servicos/jogadores.service';
 
 @Component({
   selector: 'corujao-eventos-partida',
@@ -11,11 +15,23 @@ import { Jogador } from '../../shared/modelos/jogador';
 })
 export class EventosPartidaComponent {
 
-    @Input() eventos: EventoJogo[];
+  @Input() jogo: Jogo;
 
-    public jogadores: Jogador[];
+  public jogadores$: Observable<Jogador[]>;
+  public jogadores: Jogador[];
 
-    public isEventoTimeBranco(evento: EventoJogo) {
-        return evento.time == TimeEnum.BRANCO;
-    }
+  constructor(
+    private jogadoresService: JogadoresService,
+  ) {
+    this.jogadores$ = this.jogadoresService.buscarJogadores();
+  }
+
+  public isEventoTimeBranco(evento: EventoJogo): boolean {
+    return evento.time == TimeEnum.BRANCO;
+  }
+
+  public isGol(evento: EventoJogo): boolean {
+    return evento.tipo == TipoEventoJogo.GOL;
+  }
+
 }

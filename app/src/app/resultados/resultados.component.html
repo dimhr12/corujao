@@ -11,11 +11,7 @@
             <h1 class="text-center">{{ dataSelecionada | date:'dd/MM/yyyy' }}</h1><br>
             <h2 class="text-center" *ngIf="!jogo">Não houve jogo na data selecionada</h2><br>
             <div *ngIf="jogo">
-                <h2 class="text-center">BRANCO {{ jogo.golsBranco }} x {{ jogo.golsVerde }} VERDE</h2><br>
-
-                <corujao-eventos-partida [eventos]="jogo.eventos"></corujao-eventos-partida>
-
-                <img src="assets/img/resultado_jogo.jpeg" class="img-fluid" alt="Resultado" />
+                <corujao-eventos-partida [jogo]="jogo"></corujao-eventos-partida>
             </div>
         </div>
     </div>

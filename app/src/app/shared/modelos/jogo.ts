@@ -13,12 +13,10 @@ export class Jogo {
 
     public get golsBranco(): number {
         if (typeof this._golsBranco == 'undefined') this.carregarGols();
-        console.log("golsBranco: " + this._golsBranco);
         return <number>this._golsBranco;
     }
     public get golsVerde() {
         if (typeof this._golsVerde == 'undefined') this.carregarGols();
-        console.log("golsVerde: " + this._golsVerde);
         return <number>this._golsVerde;
     }
 
@@ -33,9 +31,7 @@ export class Jogo {
         this._golsVerde = 0;
         for (let evt = 0; evt < this.eventos.length; evt++) {
             let x = this.eventos[evt];
-            console.log("x.tipo: " + x.tipo + " == " + TipoEventoJogo.GOL);
             if (x.tipo == TipoEventoJogo.GOL) {
-                console.log("x.time: " + x.time + " == " + TimeEnum.BRANCO);
                 if (x.time == TimeEnum.BRANCO) {
                     (<number>this._golsBranco)++;
                 } else if (x.time == TimeEnum.VERDE) {
