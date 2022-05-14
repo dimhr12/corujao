@@ -30,6 +30,10 @@ export class EventosPartidaComponent {
     return evento.time == TimeEnum.BRANCO;
   }
 
+  public isEventoTimeVerde(evento: EventoJogo): boolean {
+    return evento.time == TimeEnum.VERDE;
+  }
+
   public isGol(evento: EventoJogo): boolean {
     return evento.tipo == TipoEventoJogo.GOL;
   }

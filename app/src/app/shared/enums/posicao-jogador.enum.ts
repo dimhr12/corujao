@@ -11,6 +11,6 @@ export const PosicaoJogadorNome = new Map<PosicaoJogadorEnum, string>([
     [PosicaoJogadorEnum.GOL, 'Goleiro'],
     [PosicaoJogadorEnum.ZAG, 'Zagueiro'],
     [PosicaoJogadorEnum.LAT, 'Lateral'],
-    [PosicaoJogadorEnum.MEC, 'Meio-campista'],
+    [PosicaoJogadorEnum.MEC, 'Meio-campo'],
     [PosicaoJogadorEnum.ATA, 'Atacante'],
 ]);

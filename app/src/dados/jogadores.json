@@ -5,7 +5,7 @@
         "nome completo": "Alan Gabriel Fernandes Padilha",
         "descricao": "Jovem promessa.",
         "imagem": "assets/img/jogador2.png",
-        "posicao": ["MEC", "ATA", "LAT"],
+        "posicao": ["MEC", "LAT"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
@@ -105,7 +105,7 @@
         "nome completo": "Eduardo Dallavechia",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
-        "posicao": ["GOL", "ATA"],
+        "posicao": ["GOL"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
@@ -115,7 +115,7 @@
         "nome completo": "Ernani Camargo",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
-        "posicao": ["ZAG", "MEC", "LAT"],
+        "posicao": ["MEC", "LAT"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
@@ -125,7 +125,7 @@
         "nome completo": "Fernando André Dembogurski",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
-        "posicao": ["ZAG", "MEC", "ATA"],
+        "posicao": ["ZAG", "ATA"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
@@ -135,7 +135,7 @@
         "nome completo": "Fernando Veit",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
-        "posicao": ["MEC", "LAT", "ATA"],
+        "posicao": ["MEC", "LAT"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
@@ -161,7 +161,7 @@
     },
     {
         "id":"gerson-luis-daniel",
-        "nome": "Gerson Daniel",
+        "nome": "Chico Daniel",
         "nome completo": "Gerson Luís Daniel",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
@@ -285,7 +285,7 @@
         "nome completo": "Luís Henrique Wilkomm",
         "descricao": "Eterno 3 preto",
         "imagem": "assets/img/jogador2.png",
-        "posicao": ["LAT", "MEC"],
+        "posicao": ["LAT"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
@@ -305,7 +305,7 @@
         "nome completo": "Magnus Sartori",
         "descricao": "Em recuperação no Departamento Médico",
         "imagem": "assets/img/jogador2.png",
-        "posicao": ["ZAG", "LAT"],
+        "posicao": ["LAT"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
@@ -333,7 +333,7 @@
         "id":"marcos-benedetti-corso",
         "nome": "Corso",
         "nome completo": "Marcos Vinícius Benedetti Corso",
-        "descricao": "PREFEITO",
+        "descricao": "Prefeito",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
@@ -355,7 +355,7 @@
         "nome completo": "Maurício Streicher",
         "descricao": "Gêmeos",
         "imagem": "assets/img/jogador2.png",
-        "posicao": ["MEC", "LAT", "ATA"],
+        "posicao": ["MEC", "LAT"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
@@ -375,7 +375,7 @@
         "nome completo": "Murilo Hoffmann",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
-        "posicao": ["MEC", "LAT"],
+        "posicao": ["MEC"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
@@ -443,9 +443,9 @@
         "id":"sadi-dahlem",
         "nome": "Sadi",
         "nome completo": "Sadi Dahlem",
-        "descricao": "Velhinho conhece todos os atalhos. Já esteve em melhores condições físicas",
+        "descricao": "Velhinho conhece todos os atalhos. Ainda corre mais que muito guri",
         "imagem": "assets/img/jogador2.png",
-        "posicao": ["LAT", "ZAG", "GOL"],
+        "posicao": ["LAT", "ZAG"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
@@ -455,7 +455,7 @@
         "nome completo": "Tiago Schneider",
         "descricao": "Pinto, sempre entrando por trás",
         "imagem": "assets/img/jogador2.png",
-        "posicao": ["MEC", "LAT", "ATA"],
+        "posicao": ["MEC", "ATA"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
@@ -465,7 +465,7 @@
         "nome completo": "Ulisses Rosso Júnior",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
-        "posicao": ["MEC", "LAT", "ATA"],
+        "posicao": ["MEC", "LAT"],
         "altura": 170,
         "nascimento": "1970-01-01"
     }

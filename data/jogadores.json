@@ -33,7 +33,7 @@
     },
     "Diego Avozani (Polenta)": {
         "nome": "Diego Avozani (Polenta)",
-        "descricao": "Chute folha seca, nem sempre funciona...",
+        "descricao": "Chute folha seca",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
@@ -41,14 +41,14 @@
     },
     "Diego Woiciekoski": {
         "nome": "Diego Woiciekoski",
-        "descricao": "Personal trainer e corintiano.",
+        "descricao": "Personal obes... digo, trainer e corintiano.",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ATA", "MEC"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
     "Dimas Rockenbach": {
-        "nome": "Dimas Rockenbach",
+        "nome": "Dimas Henrique Rockenbach",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ZAG", "MEC", "ATA"],
@@ -137,7 +137,7 @@
     },
     "Guilherme Fabris": {
         "nome": "Guilherme Fabris",
-        "descricao": "Eqüino! Ramiro! Proteja seus tornozelos!",
+        "descricao": "Ramiro! Proteja seus tornozelos!",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["LAT"],
         "altura": 170,
