@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import { Observable } from 'rxjs';
 
 import { TimeEnum } from '../../shared/enums/time.enum';
-import { TipoEventoJogo } from '../../shared/enums/tipo-evento-jogo.enum';
+import { TipoEventoJogoEnum } from '../../shared/enums/tipo-evento-jogo.enum';
 import { EventoJogo } from '../../shared/modelos/evento-jogo';
 import { Jogador } from '../../shared/modelos/jogador';
 import { Jogo } from '../../shared/modelos/jogo';
@@ -35,7 +35,18 @@ export class EventosPartidaComponent {
   }
 
   public isGol(evento: EventoJogo): boolean {
-    return evento.tipo == TipoEventoJogo.GOL;
+    return evento.tipo == TipoEventoJogoEnum.GOL;
+  }
+  public isGolContra(evento: EventoJogo): boolean {
+    return evento.tipo == TipoEventoJogoEnum.GOL_CONTRA;
+  }
+
+  public getEventosTimeBranco(): EventoJogo[] {
+    return this.jogo.eventos.filter(x => x.time == TimeEnum.BRANCO);
+  }
+
+  public getEventosTimeVerde(): EventoJogo[] {
+    return this.jogo.eventos.filter(x => x.time == TimeEnum.VERDE);
   }
 
 }

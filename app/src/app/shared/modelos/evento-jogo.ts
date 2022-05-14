@@ -1,8 +1,8 @@
 import { TimeEnum } from "../enums/time.enum";
-import { TipoEventoJogo } from "../enums/tipo-evento-jogo.enum";
+import { TipoEventoJogoEnum } from "../enums/tipo-evento-jogo.enum";
 
 export class EventoJogo {
-    public tipo: TipoEventoJogo;
+    public tipo: TipoEventoJogoEnum;
     public time: TimeEnum;
     public jogador: string;
 };

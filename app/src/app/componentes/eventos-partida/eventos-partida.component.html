@@ -1,28 +1,35 @@
 
 <div class="lista-eventos">
-    <div class="evento-partida resultado">
-        <div class="bloco-dados-evento esquerdo">
+    <div class="times-partida resultado">
+        <div class="bloco-time esquerdo">
             <h3>BRANCO</h3>
             <h3>{{ jogo.golsBranco }}</h3>
         </div>
         <div class="bloco-meio">x</div>
-        <div class="bloco-dados-evento direito">
+        <div class="bloco-time direito">
             <h3>VERDE</h3>
             <h3>{{ jogo.golsVerde }}</h3>
         </div>
     </div>
-    <div *ngFor="let evento of jogo.eventos" class="evento-partida">
-        <div class="bloco-placeholder" *ngIf="!isEventoTimeBranco(evento)"
-            [ngClass]="{'esquerdo': !isEventoTimeBranco(evento), 'direito': isEventoTimeBranco(evento)}"></div>
-        <div class="bloco-meio" *ngIf="!isEventoTimeBranco(evento)"></div>
-        <div class="bloco-dados-evento" [ngClass]="{'esquerdo': isEventoTimeBranco(evento), 'direito': !isEventoTimeBranco(evento)}">
-            <span>
-                {{ evento.jogador }}
-            </span>
-            <img *ngIf="isGol(evento)" src="assets/img/football-ball.png" class="icone-tipo-evento">
+    <div class="eventos-partida">
+        <div class="eventos-esquerda">
+            <div *ngFor="let evento of getEventosTimeBranco()" class="bloco-dados-evento">
+                <span>
+                    {{ evento.jogador }}
+                </span>
+                <img *ngIf="isGol(evento)" src="assets/img/football-ball.png" class="icone-tipo-evento" alt="Gol" title="Gol">
+                <img *ngIf="isGolContra(evento)" src="assets/img/contra.png" class="icone-tipo-evento" alt="Gol contra" title="Gol contra">
+            </div>
         </div>
-        <div class="bloco-meio" *ngIf="isEventoTimeBranco(evento)"></div>
-        <div class="bloco-placeholder" *ngIf="isEventoTimeBranco(evento)"
-            [ngClass]="{'esquerdo': !isEventoTimeBranco(evento), 'direito': isEventoTimeBranco(evento)}"></div>
+        <div class="eventos-meio"></div>
+        <div class="eventos-direita">
+            <div *ngFor="let evento of getEventosTimeVerde()" class="bloco-dados-evento">
+                <img *ngIf="isGol(evento)" src="assets/img/football-ball.png" class="icone-tipo-evento" alt="Gol" title="Gol">
+                <img *ngIf="isGolContra(evento)" src="assets/img/contra.png" class="icone-tipo-evento" alt="Gol contra" title="Gol contra">
+                <span>
+                    {{ evento.jogador }}
+                </span>
+            </div>
+        </div>
     </div>
 </div>

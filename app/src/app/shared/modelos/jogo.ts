@@ -1,5 +1,5 @@
 import { TimeEnum } from "../enums/time.enum";
-import { TipoEventoJogo } from "../enums/tipo-evento-jogo.enum";
+import { TipoEventoJogoEnum } from "../enums/tipo-evento-jogo.enum";
 import { EventoJogo } from "./evento-jogo";
 
 export class Jogo {
@@ -31,7 +31,7 @@ export class Jogo {
         this._golsVerde = 0;
         for (let evt = 0; evt < this.eventos.length; evt++) {
             let x = this.eventos[evt];
-            if (x.tipo == TipoEventoJogo.GOL) {
+            if (x.tipo == TipoEventoJogoEnum.GOL || x.tipo == TipoEventoJogoEnum.GOL_CONTRA) {
                 if (x.time == TimeEnum.BRANCO) {
                     (<number>this._golsBranco)++;
                 } else if (x.time == TimeEnum.VERDE) {

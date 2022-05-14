@@ -26,7 +26,7 @@ export class ResultadosComponent implements OnInit {
     this.inputData.valueChanges.subscribe((val: string) => this.selecionarData(val));
 
     this.jogosService.carregouJogos.subscribe(() => {
-      this.selecionarData('2021-01-02');
+      this.selecionarData('2021-01-16');
     });
   }
 

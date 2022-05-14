@@ -3,7 +3,37 @@
     display: flex;
     flex-direction: column;
 
-    .evento-partida {
+    .eventos-partida {
+        display: flex;
+        flex-direction: row;
+        > div {
+            width: 50%;
+        }
+
+        .eventos-meio {
+            width: 4%;
+            background-color: #e0e0e0;
+        }
+    
+        .bloco-dados-evento {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 0.5rem 0 0.5rem;
+
+            &.direito {
+                text-align: right;
+                flex-direction: row-reverse;
+            }
+
+            .icone-tipo-evento {
+                height: 22px;
+                margin: 0 5px;
+            }
+        }
+    }
+
+    .times-partida {
         display: flex;
 
         h3 {
@@ -21,14 +51,14 @@
         }
 
         .bloco-placeholder,
-        .bloco-dados-evento {
+        .bloco-time {
             width: 48%;
         }
         .bloco-meio {
             width: 4%;
         }
 
-        .bloco-dados-evento {
+        .bloco-time {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -37,11 +67,6 @@
             &.direito {
                 text-align: right;
                 flex-direction: row-reverse;
-            }
-
-            .icone-tipo-evento {
-                height: 22px;
-                margin: 0 5px;
             }
         }
     }
