@@ -5,11 +5,11 @@
 <div container="flex">
     <div class="col-md-16 text-center h3" style="padding: 1rem 0.5rem 0.5rem 0.5rem;">Filtrar por posição:</div>
     <div class="col-md-16 text-center">
-        <button type="button" class="btn btn-success text-nowrap">Goleiro</button>
-        <button type="button" class="btn btn-success text-nowrap">Zagueiro</button>
-        <button type="button" class="btn btn-success text-nowrap">Lateral</button>
-        <button type="button" class="btn btn-success text-nowrap">Meio-campo</button>
-        <button type="button" class="btn btn-success text-nowrap">Atacante</button>
+        <button type="button" class="btn btn-success text-nowrap" (click)="filtrarPosicao('GOL')">Goleiro</button>
+        <button type="button" class="btn btn-success text-nowrap" (click)="filtrarPosicao('ZAG')">Zagueiro</button>
+        <button type="button" class="btn btn-success text-nowrap" (click)="filtrarPosicao('LAT')">Lateral</button>
+        <button type="button" class="btn btn-success text-nowrap" (click)="filtrarPosicao('MEC')">Meio-campo</button>
+        <button type="button" class="btn btn-success text-nowrap" (click)="filtrarPosicao('ATA')">Atacante</button>
     </div>
 </div>
 <!-- filtro por posição -->
@@ -17,7 +17,7 @@
 <!-- Coluna -->
 <div class="row justify-content-center">
     <!-- Cards -->
-    <div *ngFor="let jogador of jogadores$ | async" class="card" style="max-width: 20vw; min-width: 200px; ">
+    <div *ngFor="let jogador of jogadores" class="card" style="max-width: 20vw; min-width: 200px; ">
         <!-- Imagem -->
         <div class="avatar bg-image hover-overlay ripple" data-mdb-ripple-color="light">
     
