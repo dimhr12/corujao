@@ -10,14 +10,17 @@ import { environment } from '../../environments/environment';
 })
 export class JogadoresComponent implements OnInit {
   public baseUrl = environment.baseurl;
-  public jogadores: Jogador[]=[]; 
+  public todosJogadores: Jogador[]=[];
+  public jogadores: Jogador[]=[];
+
   constructor(
     private jogadoresService: JogadoresService,
   ) { }
 
   ngOnInit(): void { // carrega todos os jogadores do json?
     this.jogadoresService.buscarJogadores().subscribe((dados)=>{
-      this.jogadores=dados;
+      this.todosJogadores=dados;
+      this.jogadores=this.todosJogadores;
     });
   }
 
@@ -32,13 +35,11 @@ export class JogadoresComponent implements OnInit {
   filtrarPosicao(pos: string) { // filtra os jogadores pela posição selecionada no botão
     var jogadoresFiltrados=[];
 
-   // this.jogadores.filter(function(currentValue, index, arr), thisValue)
-
-    for (var i=0; i < this.jogadores.length; i++){
-      if (this.jogadores[i].posicao.includes(pos)) {
-        jogadoresFiltrados.push(this.jogadores[i])
+    for (var i=0; i < this.todosJogadores.length; i++){
+      if (this.todosJogadores[i].posicao.includes(pos)) {
+        jogadoresFiltrados.push(this.todosJogadores[i])
       }
     }
-    return jogadoresFiltrados;
+    this.jogadores = jogadoresFiltrados;
   }
 }
