@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Jogador } from '../shared/modelos/jogador';
 import { JogadoresService } from '../shared/servicos/jogadores.service';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-jogadores',
@@ -8,6 +9,7 @@ import { JogadoresService } from '../shared/servicos/jogadores.service';
   styleUrls: ['./jogadores.component.scss']
 })
 export class JogadoresComponent implements OnInit {
+  public baseUrl = environment.baseurl;
   public jogadores: Jogador[]=[]; 
   constructor(
     private jogadoresService: JogadoresService,
