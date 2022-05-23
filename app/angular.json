@@ -39,6 +39,7 @@
           "configurations": {
             "production": {
               "baseHref": "/corujao",
+              "deployUrl": "/corujao/",
               "budgets": [
                 {
                   "type": "initial",
