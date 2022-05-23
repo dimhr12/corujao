@@ -15,13 +15,21 @@ export class JogadoresComponent implements OnInit {
     private jogadoresService: JogadoresService,
   ) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { // carrega todos os jogadores do json?
     this.jogadoresService.buscarJogadores().subscribe((dados)=>{
       this.jogadores=dados;
     });
   }
 
-  filtrarPosicao(pos: string) {
+  listaTodosJogadores() { // cria lista com todos os jogadores
+    var TodosJogadores=[];
+    for (var i=0; i < this.jogadores.length; i++){
+      TodosJogadores.push(this.jogadores[i])
+      }
+      return TodosJogadores;
+  }
+
+  filtrarPosicao(pos: string) { // filtra os jogadores pela posição selecionada no botão
     var jogadoresFiltrados=[];
 
    // this.jogadores.filter(function(currentValue, index, arr), thisValue)
