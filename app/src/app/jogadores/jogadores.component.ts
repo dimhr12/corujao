@@ -33,9 +33,7 @@ export class JogadoresComponent implements OnInit {
   }
 
   showAll() {  // retorna todos os jogadores
-    var TodosJogadores=[];
-    TodosJogadores = this.todosJogadores;
-    return TodosJogadores;
+    this.jogadores = this.todosJogadores;
   }
 
   filtrarPosicao(pos: string) { // filtra os jogadores pela posição selecionada no botão

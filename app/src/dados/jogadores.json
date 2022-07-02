@@ -57,7 +57,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ATA", "MEC"],
         "altura": 170,
-        "nascimento": "1983-06-17"
+        "nascimento": "1984-06-17"
     },
     {
         "id":"dimas-rockenbach",
@@ -197,7 +197,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1988-10-20"
     },
     {
         "id":"jaques-beck",
@@ -247,7 +247,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1995-08-11"
     },
     {
         "id":"luan-cassol",
@@ -257,7 +257,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1989-04-22"
     },
     {
         "id":"luciano-winck",
@@ -277,7 +277,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["LAT"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1998-03-22"
     },
     {
         "id":"luiz-fernando-fiorim",
@@ -287,7 +287,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["LAT"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1984-03-05"
     },
     {
         "id":"marcel-knuppe-chiquinho",
@@ -307,7 +307,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1978-07-29"
     },
     {
         "id":"mauricio-streicher",
@@ -317,7 +317,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "LAT"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1988-07-14"
     },
     {
         "id":"mauro-burgel",
@@ -327,7 +327,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1970-07-25"
     },
     {
         "id":"murilo-hoffmann",
@@ -337,7 +337,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1985-03-04"
     },
     {
         "id":"regis-witcak",
@@ -347,7 +347,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["GOL"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1990-04-21"
     },
     {
         "id":"ricardo-segatto",
@@ -377,7 +377,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["LAT"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1970-09-24"
     },
     {
         "id":"rudimar-griebler-rudi",
@@ -387,7 +387,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1970-04-19"
     },
     {
         "id":"sadi-dahlem",
@@ -407,7 +407,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1970-11-14"
     },
     {
         "id":"ulisses-rosso-junior-chupim",
