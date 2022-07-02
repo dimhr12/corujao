@@ -7,7 +7,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "LAT"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "2001-03-03"
     },
     {
         "id":"antonio-dallavechia-tonhao",
@@ -17,7 +17,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1981-04-03"
     },
     {
         "id":"bruno-lopes-cardoso",
@@ -27,7 +27,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ZAG"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1978-06-27"
     },
     {
         "id":"claudionei-gewehr",
@@ -37,7 +37,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1982-07-29"
     },
     {
         "id":"diego-avozani-polenta",
@@ -47,7 +47,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1989-10-12"
     },
     {
         "id":"diego-woiciekoski",
@@ -57,7 +57,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ATA", "MEC"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1983-06-17"
     },
     {
         "id":"dimas-rockenbach",
@@ -77,22 +77,12 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1984-01-24"
     },
     {
         "id":"douglas-faoro",
         "nome": "Faoro",
         "nome completo": "Douglas Faoro",
-        "descricao": "Já esteve em melhores condições físicas",
-        "imagem": "assets/img/jogador2.png",
-        "posicao": ["ZAG", "LAT"],
-        "altura": 170,
-        "nascimento": "1970-01-01"
-    },
-    {
-        "id":"eri-neguinho",
-        "nome": "Neguinho",
-        "nome completo": "Eri",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ZAG", "LAT"],
@@ -107,6 +97,16 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["GOL"],
         "altura": 170,
+        "nascimento": "1991-04-15"
+    },
+    {
+        "id":"eri-neguinho",
+        "nome": "Neguinho",
+        "nome completo": "Eri",
+        "descricao": "Já esteve em melhores condições físicas",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["ZAG", "LAT"],
+        "altura": 170,
         "nascimento": "1970-01-01"
     },
     {
@@ -117,7 +117,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "LAT"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1985-06-11"
     },
     {
         "id":"fernando-andre-dembogurski",
@@ -147,17 +147,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ZAG"],
         "altura": 170,
-        "nascimento": "1970-01-01"
-    },
-    {
-        "id":"gelson-monteiro",
-        "nome": "Gelson",
-        "nome completo": "Gelson Monteiro",
-        "descricao": "Já esteve em melhores condições físicas",
-        "imagem": "assets/img/jogador2.png",
-        "posicao": ["MEC", "LAT"],
-        "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1977-10-22"
     },
     {
         "id":"gerson-luis-daniel",
@@ -167,7 +157,7 @@
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1970-07-01"
     },
     {
         "id":"gerson-thomazi",
@@ -220,12 +210,12 @@
         "nascimento": "1970-01-01"
     },
     {
-        "id":"jardel-thomazi-tato",
-        "nome": "Tato",
-        "nome completo": "Jardel Thomazi",
+        "id":"jonas-cassol",
+        "nome": "Jonas",
+        "nome completo": "Jonas Cassol",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
-        "posicao": ["LAT"],
+        "posicao": ["GOL"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
@@ -242,7 +232,7 @@
     {
         "id":"leandro-dahlem",
         "nome": "Leandro",
-        "nome completo": "Leandro Dahlem",
+        "nome completo": "Leandro André Dahlem",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["LAT"],
@@ -263,7 +253,7 @@
         "id":"luan-cassol",
         "nome": "Luan",
         "nome completo": "Luan Cassol",
-        "descricao": "Soneca",
+        "descricao": "Showman",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
@@ -300,42 +290,12 @@
         "nascimento": "1970-01-01"
     },
     {
-        "id":"magnus-sartori-gaita",
-        "nome": "Gaita",
-        "nome completo": "Magnus Sartori",
-        "descricao": "Em recuperação no Departamento Médico",
-        "imagem": "assets/img/jogador2.png",
-        "posicao": ["LAT"],
-        "altura": 170,
-        "nascimento": "1970-01-01"
-    },
-    {
         "id":"marcel-knuppe-chiquinho",
         "nome": "Chiquinho",
         "nome completo": "Marcel Knüppe",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["LAT"],
-        "altura": 170,
-        "nascimento": "1970-01-01"
-    },
-    {
-        "id":"marcelo-streicher",
-        "nome": "Marcelo",
-        "nome completo": "Marcelo Streicher",
-        "descricao": "Gêmeos",
-        "imagem": "assets/img/jogador2.png",
-        "posicao": ["GOL"],
-        "altura": 170,
-        "nascimento": "1970-01-01"
-    },
-    {
-        "id":"marcos-benedetti-corso",
-        "nome": "Corso",
-        "nome completo": "Marcos Vinícius Benedetti Corso",
-        "descricao": "Prefeito",
-        "imagem": "assets/img/jogador2.png",
-        "posicao": ["MEC", "ATA"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
@@ -376,16 +336,6 @@
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC"],
-        "altura": 170,
-        "nascimento": "1970-01-01"
-    },
-    {
-        "id":"pedro-jair-sulzbach-de-mello-mimo",
-        "nome": "Mimo",
-        "nome completo": "Pedro Jair Sulzbach de Mello",
-        "descricao": "Já esteve em melhores condições físicas",
-        "imagem": "assets/img/jogador2.png",
-        "posicao": ["LAT"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
