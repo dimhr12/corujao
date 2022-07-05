@@ -2,78 +2,78 @@
     {
         "data": "2021-01-02",
         "jogadores_branco": [
-            "Régis Witcak",
-            "Gabriel Hetwer",
-            "Sadi Dahlem",
+            "regis-witcak",
+            "gabriel-hetwer",
+            "sadi-dahlem",
             "Pedrinho",
-            "Giuliano Motta",
-            "Dimas Rockenbach",
-            "Mateus Caraffa Casali (Mire)",
-            "Ulisses Rosso Júnior (Chupim)",
-            "Rudimar Griebler (Rudi)"
+            "giuliano-motta",
+            "dimas-rockenbach",
+            "mateus-caraffa-casali-mire",
+            "ulisses-rosso-junior-chupim",
+            "rudimar-griebler-rudi"
         ],
         "jogadores_verde": [
             "Kavera",
-            "Douglas Faoro",
-            "Eri (Neguinho)",
-            "Rogério Stein",
-            "Diego Avozani (Polenta)",
-            "Róger Eduardo Witcak",
-            "Mauro Burgel",
-            "Diego Woiciekoski",
-            "Tiago Schneider (Puffe)",
+            "douglas-faoro",
+            "eri-neguinho",
+            "rogerio-stein",
+            "diego-avozani-polenta",
+            "roger-eduardo-witcak",
+            "mauro-burgel",
+            "diego-woiciekoski",
+            "tiago-schneider-puffe",
             "Tiago (Motomaio)"
         ],
         "eventos": [
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Dimas Rockenbach"
+                "jogador": "dimas-rockenbach"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Dimas Rockenbach"
+                "jogador": "dimas-rockenbach"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Rudimar Griebler (Rudi)"
+                "jogador": "rudimar-griebler-rudi"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Rudimar Griebler (Rudi)"
+                "jogador": "rudimar-griebler-rudi"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Douglas Faoro"
+                "jogador": "douglas-faoro"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Diego Avozani (Polenta)"
+                "jogador": "diego-avozani-polenta"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Mauro Burgel"
+                "jogador": "mauro-burgel"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Diego Woiciekoski"
+                "jogador": "diego-woiciekoski"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Diego Woiciekoski"
+                "jogador": "diego-woiciekoski"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Diego Woiciekoski"
+                "jogador": "diego-woiciekoski"
             },
             {
                 "tipo": "GOL",
@@ -85,129 +85,129 @@
     {
         "data": "2021-01-09",
         "jogadores_branco": [
-            "Luciano Winck",
-            "Douglas Faoro",
-            "Sadi Dahlem",
-            "Eri (Neguinho)",
-            "Claudionei Gewehr",
-            "Dimas Rockenbach",
-            "Diego Woiciekoski"
+            "luciano-winck",
+            "douglas-faoro",
+            "sadi-dahlem",
+            "eri-neguinho",
+            "claudionei-gewehr",
+            "dimas-rockenbach",
+            "diego-woiciekoski"
         ],
         "jogadores_verde": [
-            "Régis Witcak",
-            "Gabriel Hetwer",
+            "regis-witcak",
+            "gabriel-hetwer",
             "Pedro Jair Sulzbach de Mello (Mimo)",
-            "Róger Eduardo Witcak",
-            "Leandro Dahlem",
-            "Mauro Burgel",
-            "Ulisses Rosso Júnior (Chupim)",
-            "Rudimar Griebler (Rudi)"
+            "roger-eduardo-witcak",
+            "leandro-dahlem",
+            "mauro-burgel",
+            "ulisses-rosso-junior-chupim",
+            "rudimar-griebler-rudi"
         ],
         "eventos": [
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Douglas Faoro"
+                "jogador": "douglas-faoro"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Douglas Faoro"
+                "jogador": "douglas-faoro"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Sadi Dahlem"
+                "jogador": "sadi-dahlem"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Eri (Neguinho)"
+                "jogador": "eri-neguinho"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Dimas Rockenbach"
+                "jogador": "dimas-rockenbach"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Diego Woiciekoski"
+                "jogador": "diego-woiciekoski"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Diego Woiciekoski"
+                "jogador": "diego-woiciekoski"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Diego Woiciekoski"
+                "jogador": "diego-woiciekoski"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Diego Woiciekoski"
+                "jogador": "diego-woiciekoski"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Diego Woiciekoski"
+                "jogador": "diego-woiciekoski"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Róger Eduardo Witcak"
+                "jogador": "roger-eduardo-witcak"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Leandro Dahlem"
+                "jogador": "leandro-dahlem"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Leandro Dahlem"
+                "jogador": "leandro-dahlem"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Leandro Dahlem"
+                "jogador": "leandro-dahlem"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Mauro Burgel"
+                "jogador": "mauro-burgel"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Ulisses Rosso Júnior (Chupim)"
+                "jogador": "ulisses-rosso-junior-chupim"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Ulisses Rosso Júnior (Chupim)"
+                "jogador": "ulisses-rosso-junior-chupim"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Ulisses Rosso Júnior (Chupim)"
+                "jogador": "ulisses-rosso-junior-chupim"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Ulisses Rosso Júnior (Chupim)"
+                "jogador": "ulisses-rosso-junior-chupim"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Rudimar Griebler (Rudi)"
+                "jogador": "rudimar-griebler-rudi"
             },            
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Rudimar Griebler (Rudi)"
+                "jogador": "rudimar-griebler-rudi"
             }
         ]
     },
@@ -215,31 +215,31 @@
         "data": "2021-01-16",
         "jogadores_branco": [
             "Kavera",
-            "Gabriel Hetwer",
-            "Sadi Dahlem",
+            "gabriel-hetwer",
+            "sadi-dahlem",
             "Gelson Monteiro",
-            "Claudionei Gewehr",
-            "Dimas Rockenbach",
-            "Mauro Burgel",
-            "Maurício Streicher",
+            "claudionei-gewehr",
+            "dimas-rockenbach",
+            "mauro-burgel",
+            "mauricio-streicher",
             "Eberton (Chitão)"
         ],
         "jogadores_verde": [
-            "Régis Witcak",
-            "Douglas Faoro",
-            "Leandro Dahlem",
-            "Giuliano Motta",
-            "Luan Cassol",
-            "Róger Eduardo Witcak",
-            "Diego Woiciekoski",
-            "Luís Henrique Wilkomm",
-            "Ulisses Rosso Júnior (Chupim)"
+            "regis-witcak",
+            "douglas-faoro",
+            "leandro-dahlem",
+            "giuliano-motta",
+            "luan-cassol",
+            "roger-eduardo-witcak",
+            "diego-woiciekoski",
+            "luis-henrique-wilkomm",
+            "ulisses-rosso-junior-chupim"
         ],
         "eventos": [
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Gabriel Hetwer"
+                "jogador": "gabriel-hetwer"
             },
             {
                 "tipo": "GOL",
@@ -249,42 +249,42 @@
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Dimas Rockenbach"
+                "jogador": "dimas-rockenbach"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Dimas Rockenbach"
+                "jogador": "dimas-rockenbach"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Dimas Rockenbach"
+                "jogador": "dimas-rockenbach"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Mauro Burgel"
+                "jogador": "mauro-burgel"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Mauro Burgel"
+                "jogador": "mauro-burgel"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Mauro Burgel"
+                "jogador": "mauro-burgel"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Maurício Streicher"
+                "jogador": "mauricio-streicher"
             },
             {
                 "tipo": "GOL",
                 "time": "BRANCO",
-                "jogador": "Maurício Streicher"
+                "jogador": "mauricio-streicher"
             },
             {
                 "tipo": "GOL",
@@ -294,37 +294,37 @@
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Luan Cassol"
+                "jogador": "luan-cassol"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Róger Eduardo Witcak"
+                "jogador": "roger-eduardo-witcak"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Róger Eduardo Witcak"
+                "jogador": "roger-eduardo-witcak"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Diego Woiciekoski"
+                "jogador": "diego-woiciekoski"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Ulisses Rosso Júnior (Chupim)"
+                "jogador": "ulisses-rosso-junior-chupim"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Ulisses Rosso Júnior (Chupim)"
+                "jogador": "ulisses-rosso-junior-chupim"
             },
             {
                 "tipo": "GOL",
                 "time": "VERDE",
-                "jogador": "Ulisses Rosso Júnior (Chupim)"
+                "jogador": "ulisses-rosso-junior-chupim"
             },
             {
                 "tipo": "GOL_CONTRA",
@@ -338,234 +338,234 @@
         "data": "2021-01-23",
         "jogadores_branco": [
             "Kavera",
-            "Douglas Faoro",
-            "Sadi Dahlem",
-            "Giuliano Motta",
-            "Claudionei Gewehr",
-            "Dimas Rockenbach",
-            "Diego Woiciekoski",
-            "Guilherme Fabris",
+            "douglas-faoro",
+            "sadi-dahlem",
+            "giuliano-motta",
+            "claudionei-gewehr",
+            "dimas-rockenbach",
+            "diego-woiciekoski",
+            "guilherme-fabris",
             "Pedrinho",
             "Cristiano Francesco Dill"
         ],
         "jogadores_verde": [
-            "Régis Witcak",
-            "Gabriel Hetwer",
-            "Leandro Dahlem",
+            "regis-witcak",
+            "gabriel-hetwer",
+            "leandro-dahlem",
             "Pedro Jair Sulzbach de Mello (Mimo)",
-            "Luan Cassol",
-            "Róger Eduardo Witcak",
-            "Mateus Caraffa Casali (Mire)",
+            "luan-cassol",
+            "roger-eduardo-witcak",
+            "mateus-caraffa-casali-mire",
             "Gelson Monteiro",
-            "Ulisses Rosso Júnior (Chupim)",
+            "ulisses-rosso-junior-chupim",
             "Lucas Dill"
         ],
         "eventos": [
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Douglas Faoro"
+                "jogador": "douglas-faoro"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Giuliano Motta"
+                "jogador": "giuliano-motta"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Giuliano Motta"
+                "jogador": "giuliano-motta"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Giuliano Motta"
+                "jogador": "giuliano-motta"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Claudionei Gewehr"
+                "jogador": "claudionei-gewehr"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Claudionei Gewehr"
+                "jogador": "claudionei-gewehr"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Dimas Rockenbach"
+                "jogador": "dimas-rockenbach"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Dimas Rockenbach"
+                "jogador": "dimas-rockenbach"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Dimas Rockenbach"
+                "jogador": "dimas-rockenbach"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Diego Woiciekoski"
+                "jogador": "diego-woiciekoski"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Diego Woiciekoski"
+                "jogador": "diego-woiciekoski"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Diego Woiciekoski"
+                "jogador": "diego-woiciekoski"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Luan Cassol"
+                "jogador": "luan-cassol"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Luan Cassol"
+                "jogador": "luan-cassol"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Luan Cassol"
+                "jogador": "luan-cassol"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Róger Eduardo Witcak"
+                "jogador": "roger-eduardo-witcak"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Mateus Caraffa Casali (Mire)"
+                "jogador": "mateus-caraffa-casali-mire"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Mateus Caraffa Casali (Mire)"
+                "jogador": "mateus-caraffa-casali-mire"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Mateus Caraffa Casali (Mire)"
+                "jogador": "mateus-caraffa-casali-mire"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Ulisses Rosso Júnior (Chupim)"
+                "jogador": "ulisses-rosso-junior-chupim"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Ulisses Rosso Júnior (Chupim)"
+                "jogador": "ulisses-rosso-junior-chupim"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Ulisses Rosso Júnior (Chupim)"
+                "jogador": "ulisses-rosso-junior-chupim"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Ulisses Rosso Júnior (Chupim)"
+                "jogador": "ulisses-rosso-junior-chupim"
             }
         ]
     },
     {
         "data": "2021-01-30",
         "jogadores_branco": [
-            "Régis Witcak",
-            "Douglas Faoro",
-            "Sadi Dahlem",
-            "Giuliano Motta",
-            "Róger Eduardo Witcak",
-            "Dimas Rockenbach",
-            "Mauro Burgel",
-            "Guilherme Fabris",
-            "Eri (Neguinho)"
+            "regis-witcak",
+            "douglas-faoro",
+            "sadi-dahlem",
+            "giuliano-motta",
+            "roger-eduardo-witcak",
+            "dimas-rockenbach",
+            "mauro-burgel",
+            "guilherme-fabris",
+            "eri-neguinho"
         ],
         "jogadores_verde": [
             "Lúcio",
-            "Gabriel Hetwer",
+            "gabriel-hetwer",
             "Gelson Monteiro",
-            "Leandro Dahlem",
-            "Claudionei Gewehr",
-            "Luan Cassol",
-            "Mateus Caraffa Casali (Mire)",
+            "leandro-dahlem",
+            "claudionei-gewehr",
+            "luan-cassol",
+            "mateus-caraffa-casali-mire",
             "Pedrinho"
         ],
         "eventos": [
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Douglas Faoro"
+                "jogador": "douglas-faoro"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Giuliano Motta"
+                "jogador": "giuliano-motta"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Dimas Rockenbach"
+                "jogador": "dimas-rockenbach"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Dimas Rockenbach"
+                "jogador": "dimas-rockenbach"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Mauro Burgel"
+                "jogador": "mauro-burgel"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Mauro Burgel"
+                "jogador": "mauro-burgel"
             },
             {
                 "tipo": "GOL",
                 "time":"BRANCO",
-                "jogador": "Mauro Burgel"
+                "jogador": "mauro-burgel"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Luan Cassol"
+                "jogador": "luan-cassol"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Mateus Caraffa Casali (Mire)"
+                "jogador": "mateus-caraffa-casali-mire"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Mateus Caraffa Casali (Mire)"
+                "jogador": "mateus-caraffa-casali-mire"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Mateus Caraffa Casali (Mire)"
+                "jogador": "mateus-caraffa-casali-mire"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Mateus Caraffa Casali (Mire)"
+                "jogador": "mateus-caraffa-casali-mire"
             },
             {
                 "tipo": "GOL",
                 "time":"VERDE",
-                "jogador": "Mateus Caraffa Casali (Mire)"
+                "jogador": "mateus-caraffa-casali-mire"
             },
             {
                 "tipo": "GOL",

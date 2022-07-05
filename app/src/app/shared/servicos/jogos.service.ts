@@ -31,8 +31,24 @@ export class JogosService {
   }
 
   buscarJogo(ano: number, mes: number, dia: number): Jogo | undefined {
-    if (ano in this.JOGOS && mes in this.JOGOS[ano] && dia in this.JOGOS[ano][mes]) {
-      return this.JOGOS[ano][mes][dia];
+    const jogos = this.buscarJogosDoMes(ano, mes);
+    if (dia in jogos) {
+      return jogos[dia];
+    }
+    return undefined;
+  }
+
+  buscarJogosDoMes(ano: number, mes: number): any | undefined {
+    const jogos = this.buscarJogosDoAno(ano);
+    if (mes in jogos) {
+      return jogos[mes];
+    }
+    return undefined;
+  }
+
+  buscarJogosDoAno(ano: number): any | undefined {
+    if (ano in this.JOGOS) {
+      return this.JOGOS[ano];
     }
     return undefined;
   }
