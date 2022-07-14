@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { Observable } from 'rxjs';
 
+import { environment } from '../../../environments/environment';
 import { TimeEnum } from '../../shared/enums/time.enum';
 import { TipoEventoJogoEnum } from '../../shared/enums/tipo-evento-jogo.enum';
 import { EventoJogo } from '../../shared/modelos/evento-jogo';
@@ -14,6 +14,7 @@ import { JogadoresService } from '../../shared/servicos/jogadores.service';
   styleUrls: ['./eventos-partida.component.scss']
 })
 export class EventosPartidaComponent {
+  public baseUrl = environment.baseurl;
 
   @Input() jogo: Jogo;
   @Input() mostrarEscalacao: boolean = true;

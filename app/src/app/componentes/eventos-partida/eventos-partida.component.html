@@ -44,15 +44,15 @@
                 <span [title]="getNomeCompletoJogador(evento.jogador)">
                     {{ getNomeJogador(evento.jogador) }}
                 </span>
-                <img *ngIf="isGol(evento)" src="assets/img/football-ball.png" class="icone-tipo-evento" alt="Gol" title="Gol">
-                <img *ngIf="isGolContra(evento)" src="assets/img/contra.png" class="icone-tipo-evento" alt="Gol contra" title="Gol contra">
+                <img *ngIf="isGol(evento)" src="{{baseUrl}}assets/img/football-ball.png" class="icone-tipo-evento" alt="Gol" title="Gol">
+                <img *ngIf="isGolContra(evento)" src="{{baseUrl}}assets/img/contra.png" class="icone-tipo-evento" alt="Gol contra" title="Gol contra">
             </div>
         </div>
         <div class="eventos-meio"></div>
         <div class="eventos-direita">
             <div *ngFor="let evento of getEventosTimeVerde()" class="bloco-dados-evento">
-                <img *ngIf="isGol(evento)" src="assets/img/football-ball.png" class="icone-tipo-evento" alt="Gol" title="Gol">
-                <img *ngIf="isGolContra(evento)" src="assets/img/contra.png" class="icone-tipo-evento" alt="Gol contra" title="Gol contra">
+                <img *ngIf="isGol(evento)" src="{{baseUrl}}assets/img/football-ball.png" class="icone-tipo-evento" alt="Gol" title="Gol">
+                <img *ngIf="isGolContra(evento)" src="{{baseUrl}}assets/img/contra.png" class="icone-tipo-evento" alt="Gol contra" title="Gol contra">
                 <span [title]="getNomeCompletoJogador(evento.jogador)">
                     {{ getNomeJogador(evento.jogador) }}
                 </span>
