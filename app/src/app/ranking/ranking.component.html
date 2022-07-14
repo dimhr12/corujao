@@ -1,95 +1,97 @@
 
 <corujao-breadcrumbs paginaAtual="Ranking"></corujao-breadcrumbs>
 
-<div class="container-botoes-ranking d-flex">
-    <div class="botoes-ranking btn-group" role="group" aria-label="Período do ranking">
-        <button type="button" class="btn btn-lg btn-outline-primary" [ngClass]="{'active': isPeriodoAnual}" (click)="alterarPeriodicidade(periodoAnual)">
-            Anual
-        </button>
-        <button type="button" class="btn btn-lg btn-outline-primary" [ngClass]="{'active': isPeriodoSemestral}" (click)="alterarPeriodicidade(periodoSemestral)">
-            Semestral
-        </button>
-        <button type="button" class="btn btn-lg btn-outline-primary" [ngClass]="{'active': isPeriodoMensal}" (click)="alterarPeriodicidade(periodoMensal)">
-            Mensal
-        </button>
+<div class="container">
+    <div class="container-botoes-ranking d-flex">
+        <div class="botoes-ranking btn-group" role="group" aria-label="Período do ranking">
+            <button type="button" class="btn btn-lg btn-outline-primary" [ngClass]="{'active': isPeriodoAnual}" (click)="alterarPeriodicidade(periodoAnual)">
+                Anual
+            </button>
+            <button type="button" class="btn btn-lg btn-outline-primary" [ngClass]="{'active': isPeriodoSemestral}" (click)="alterarPeriodicidade(periodoSemestral)">
+                Semestral
+            </button>
+            <button type="button" class="btn btn-lg btn-outline-primary" [ngClass]="{'active': isPeriodoMensal}" (click)="alterarPeriodicidade(periodoMensal)">
+                Mensal
+            </button>
+        </div>
     </div>
-</div>
 
-<div class="form-periodo-ranking">
-    <form>
-        <div class="mb-3">
-            <label for="selecaoAno" class="form-label">Ano</label>
-            <select id="selecaoAno" class="form-select" aria-label="Ano" [(ngModel)]="anoSelecionado" name="ano">
-                <option *ngFor="let a of anosDisponiveis" [value]="a">{{ a }}</option>
-            </select>
-        </div>
-        <div class="mb-3" *ngIf="isPeriodoSemestral">
-            <label for="selecaoSemestre" class="form-label">Semestre</label>
-            <select id="selecaoSemestre" class="form-select" aria-label="Semestre" [(ngModel)]="semestreSelecionado" name="semestre">
-                <option value="1">1º</option>
-                <option value="2">2º</option>
-            </select>
-        </div>
-        <div class="mb-3" *ngIf="isPeriodoMensal">
-            <label for="selecaoMes" class="form-label">Mês</label>
-            <select id="selecaoMes" class="form-select" aria-label="Mês" [(ngModel)]="mesSelecionado" name="mes">
-                <option *ngFor="let m of mesesDisponiveis" [value]="m">{{ getNomeMes(m) }}</option>
-            </select>
-        </div>
-    </form>
-</div>
-
-<div class="container-botoes-ranking d-flex">
-    <div class="botoes-ranking btn-group" role="group" aria-label="Ordenação do ranking">
-        <button type="button" class="btn btn-lg btn-outline-primary" [ngClass]="{'active': isOrdemPontos}" (click)="ordenarRanking(ordemPontos)">
-            Pontos
-        </button>
-        <button type="button" class="btn btn-lg btn-outline-primary" [ngClass]="{'active': isOrdemGols}" (click)="ordenarRanking(ordemGols)">
-            Gols
-        </button>
-        <button type="button" class="btn btn-lg btn-outline-primary" [ngClass]="{'active': isOrdemAssiduidade}" (click)="ordenarRanking(ordemAssiduidade)">
-            Assiduidade
-        </button>
+    <div class="form-periodo-ranking">
+        <form>
+            <div class="mb-3">
+                <label for="selecaoAno" class="form-label">Ano</label>
+                <select id="selecaoAno" class="form-select" aria-label="Ano" [(ngModel)]="anoSelecionado" name="ano">
+                    <option *ngFor="let a of anosDisponiveis" [value]="a">{{ a }}</option>
+                </select>
+            </div>
+            <div class="mb-3" *ngIf="isPeriodoSemestral">
+                <label for="selecaoSemestre" class="form-label">Semestre</label>
+                <select id="selecaoSemestre" class="form-select" aria-label="Semestre" [(ngModel)]="semestreSelecionado" name="semestre">
+                    <option value="1">1º</option>
+                    <option value="2">2º</option>
+                </select>
+            </div>
+            <div class="mb-3" *ngIf="isPeriodoMensal">
+                <label for="selecaoMes" class="form-label">Mês</label>
+                <select id="selecaoMes" class="form-select" aria-label="Mês" [(ngModel)]="mesSelecionado" name="mes">
+                    <option *ngFor="let m of mesesDisponiveis" [value]="m">{{ getNomeMes(m) }}</option>
+                </select>
+            </div>
+        </form>
     </div>
-</div>
 
-<div *ngIf="isPeriodoValido">
-    <h1 class="titulo-ranking text-center">
-        Ranking
-        <span *ngIf="isPeriodoAnual">de {{ ano }}</span>
-        <span *ngIf="isPeriodoSemestral">do {{ semestre }}º semestre de {{ ano }}</span>
-        <span *ngIf="isPeriodoMensal">de {{ getNomeMes(mes) }}/{{ ano }}</span>
-        por
-        <span *ngIf="isOrdemPontos">Pontos</span>
-        <span *ngIf="isOrdemGols">Gols</span>
-        <span *ngIf="isOrdemAssiduidade">Assiduidade</span>
-    </h1>
-    <h6 class="text-center">
-        Com base em {{jogosConsiderados}} jogos no período
-    </h6>
+    <div class="container-botoes-ranking d-flex">
+        <div class="botoes-ranking btn-group" role="group" aria-label="Ordenação do ranking">
+            <button type="button" class="btn btn-lg btn-outline-primary" [ngClass]="{'active': isOrdemPontos}" (click)="ordenarRanking(ordemPontos)">
+                Pontos
+            </button>
+            <button type="button" class="btn btn-lg btn-outline-primary" [ngClass]="{'active': isOrdemGols}" (click)="ordenarRanking(ordemGols)">
+                Gols
+            </button>
+            <button type="button" class="btn btn-lg btn-outline-primary" [ngClass]="{'active': isOrdemAssiduidade}" (click)="ordenarRanking(ordemAssiduidade)">
+                Assiduidade
+            </button>
+        </div>
+    </div>
 
-    <table class="table table-stripped">
-        <thead>
-            <tr>
-                <th>Jogador</th>
-                <th class="text-end" [ngClass]="{'fw-bold': isOrdemPontos}">Pontos</th>
-                <th class="text-end" [ngClass]="{'fw-bold': isOrdemGols}">Gols</th>
-                <th class="text-end" [ngClass]="{'fw-bold': isOrdemAssiduidade}">Assiduidade</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr *ngFor="let jogador of jogadoresRanking">
-                <td>{{jogador.nome}}</td>
-                <td class="text-end" [ngClass]="{'fw-bold': isOrdemPontos}">{{jogador.pontos}}</td>
-                <td class="text-end" [ngClass]="{'fw-bold': isOrdemGols}">{{jogador.gols}}</td>
-                <td class="text-end" [ngClass]="{'fw-bold': isOrdemAssiduidade}">{{jogador.assiduidade}}</td>
-            </tr>
-        </tbody>
-    </table>
+    <div *ngIf="isPeriodoValido">
+        <h1 class="titulo-ranking text-center">
+            Ranking
+            <span *ngIf="isPeriodoAnual">de {{ ano }}</span>
+            <span *ngIf="isPeriodoSemestral">do {{ semestre }}º semestre de {{ ano }}</span>
+            <span *ngIf="isPeriodoMensal">de {{ getNomeMes(mes) }}/{{ ano }}</span>
+            por
+            <span *ngIf="isOrdemPontos">Pontos</span>
+            <span *ngIf="isOrdemGols">Gols</span>
+            <span *ngIf="isOrdemAssiduidade">Assiduidade</span>
+        </h1>
+        <h6 class="text-center">
+            Com base em {{jogosConsiderados}} jogos no período
+        </h6>
 
-    <div>
-        <span *ngIf="isOrdemPontos">No ranking por Pontos o critério de desempate é: Assiduidade, Gols, Nome (ordem alfabética)</span>
-        <span *ngIf="isOrdemGols">No ranking por Gols o critério de desempate é: Pontos, Assiduidade, Nome (ordem alfabética)</span>
-        <span *ngIf="isOrdemAssiduidade">No ranking por Assiduidade o critério de desempate é: quantidade de Pontos, Gols, Nome (ordem alfabética)</span>
+        <table class="table table-stripped">
+            <thead>
+                <tr>
+                    <th>Jogador</th>
+                    <th class="text-end" [ngClass]="{'fw-bold': isOrdemPontos}">Pontos</th>
+                    <th class="text-end" [ngClass]="{'fw-bold': isOrdemGols}">Gols</th>
+                    <th class="text-end" [ngClass]="{'fw-bold': isOrdemAssiduidade}">Assiduidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let jogador of jogadoresRanking">
+                    <td>{{jogador.nome}}</td>
+                    <td class="text-end" [ngClass]="{'fw-bold': isOrdemPontos}">{{jogador.pontos}}</td>
+                    <td class="text-end" [ngClass]="{'fw-bold': isOrdemGols}">{{jogador.gols}}</td>
+                    <td class="text-end" [ngClass]="{'fw-bold': isOrdemAssiduidade}">{{jogador.assiduidade}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div>
+            <span *ngIf="isOrdemPontos">No ranking por Pontos o critério de desempate é: Assiduidade, Gols, Nome (ordem alfabética)</span>
+            <span *ngIf="isOrdemGols">No ranking por Gols o critério de desempate é: Pontos, Assiduidade, Nome (ordem alfabética)</span>
+            <span *ngIf="isOrdemAssiduidade">No ranking por Assiduidade o critério de desempate é: quantidade de Pontos, Gols, Nome (ordem alfabética)</span>
+        </div>
     </div>
 </div>
