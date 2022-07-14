@@ -4,8 +4,8 @@ import csv
 import json
 
 # Configurações
-input = 'resultados corujao - Página1.csv'
-output = 'resultados corujao planilha.json'
+input = 'resultados_corujao_gdocs.csv'
+output = 'resultados_corujao_gdocs.json'
 logar = False
 
 
@@ -20,21 +20,23 @@ with open(input, newline='') as planilhacsv:
         dados_planilha.append(linha)
 
 # Busca os jogadores de cada jogo
-for jogo,ijogo in zip(jogos, range(0,len(jogos))):
+for datajogo,ijogo in zip(jogos, range(0,len(jogos))):
     ijplanilha = ijogo+1 # índice do jogo na planilha
     if logar:
-        print('Buscando jogadores do jogo', jogo)
+        print('Buscando jogadores do jogo', datajogo)
+    mensagem = dados_planilha[0][ijplanilha]
     jogadores_verde = []
-    for itverde in range(0,16): # linhas de jogadores do time verde
+    for itverde in range(1,17): # linhas de jogadores do time verde
         if dados_planilha[itverde][ijplanilha]:
             jogadores_verde.append(dados_planilha[itverde][ijplanilha])
     jogadores_branco = []
-    for itbranco in range(16,31): # linhas de jogadores do time branco
+    for itbranco in range(17,32): # linhas de jogadores do time branco
         if dados_planilha[itbranco][ijplanilha]:
             jogadores_branco.append(dados_planilha[itbranco][ijplanilha])
 
     dados.append({
-        'data': jogo,
+        'data': datajogo,
+        'mensagem': mensagem,
         'jogadores_branco': jogadores_branco,
         'jogadores_verde': jogadores_verde,
         'eventos': [],
@@ -42,12 +44,12 @@ for jogo,ijogo in zip(jogos, range(0,len(jogos))):
 
 # Busca os eventos (gols) de cada jogo.
 # Precisa fazer isso depois de preencher os jogadores, pra saber de que time é cada jogador
-for jogo,ijogo in zip(jogos, range(0,len(jogos))):
+for datajogo,ijogo in zip(jogos, range(0,len(jogos))):
     ijplanilha = ijogo+1 # índice do jogo na planilha
     if logar:
-        print('Buscando gols do jogo', jogo)
+        print('Buscando gols do jogo', datajogo)
     eventos = []
-    for iteventos in range(31,len(dados_planilha)): # linhas de eventos
+    for iteventos in range(32,len(dados_planilha)): # linhas de eventos
         if dados_planilha[iteventos][ijplanilha]:
             tipo = 'GOL'
             evento = dados_planilha[iteventos][ijplanilha]

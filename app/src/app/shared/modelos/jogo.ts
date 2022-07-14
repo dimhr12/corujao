@@ -4,6 +4,7 @@ import { EventoJogo } from "./evento-jogo";
 
 export class Jogo {
     public data: string;
+    public mensagem: string;
     public jogadores_branco: string[];
     public jogadores_verde: string[];
     public eventos: EventoJogo[];
@@ -27,6 +28,9 @@ export class Jogo {
     }
 
     private carregarGols(): void {
+        if (!this.eventos) {
+            return;
+        }
         this._golsBranco = 0;
         this._golsVerde = 0;
         for (let evt = 0; evt < this.eventos.length; evt++) {

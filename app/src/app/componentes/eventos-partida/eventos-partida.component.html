@@ -1,5 +1,9 @@
 
-<div class="lista-eventos">
+<div *ngIf="jogo.mensagem" class="text-center alert alert-dark" role="alert">
+    <h6>{{ jogo.mensagem }}</h6>
+</div>
+
+<div *ngIf="jogo.eventos" class="lista-eventos">
     <div class="times-partida resultado">
         <div class="bloco-time esquerdo">
             <h3>BRANCO</h3>
@@ -14,8 +18,8 @@
     <div class="eventos-partida">
         <div class="eventos-esquerda">
             <div *ngFor="let evento of getEventosTimeBranco()" class="bloco-dados-evento">
-                <span>
-                    {{ evento.jogador }}
+                <span [title]="getNomeCompletoJogador(evento.jogador)">
+                    {{ getNomeJogador(evento.jogador) }}
                 </span>
                 <img *ngIf="isGol(evento)" src="assets/img/football-ball.png" class="icone-tipo-evento" alt="Gol" title="Gol">
                 <img *ngIf="isGolContra(evento)" src="assets/img/contra.png" class="icone-tipo-evento" alt="Gol contra" title="Gol contra">
@@ -26,8 +30,8 @@
             <div *ngFor="let evento of getEventosTimeVerde()" class="bloco-dados-evento">
                 <img *ngIf="isGol(evento)" src="assets/img/football-ball.png" class="icone-tipo-evento" alt="Gol" title="Gol">
                 <img *ngIf="isGolContra(evento)" src="assets/img/contra.png" class="icone-tipo-evento" alt="Gol contra" title="Gol contra">
-                <span>
-                    {{ evento.jogador }}
+                <span [title]="getNomeCompletoJogador(evento.jogador)">
+                    {{ getNomeJogador(evento.jogador) }}
                 </span>
             </div>
         </div>

@@ -16,6 +16,7 @@ import { DataUtil } from '../shared/util/data.util';
 })
 export class RankingComponent implements OnInit {
 
+  public jogosConsiderados: number;
   public jogadoresRanking: JogadorRanking[];
   private jogosDoAnoCarregados: number;
   public jogosDoAno: any;
@@ -40,6 +41,7 @@ export class RankingComponent implements OnInit {
   }
   public set semestreSelecionado(semestre: string) {
     this.semestre = semestre ? parseInt(semestre) : undefined;
+    this.calcularRankings();
   }
 
   public mes?: number;
@@ -155,6 +157,7 @@ export class RankingComponent implements OnInit {
       j.gols = 0;
       j.assiduidade = 0;
     });
+    this.jogosConsiderados = 0;
     if (this.jogosDoAno) {
       // Cria os objetos do ranking com {'jogador-id': 0}
       const ranking = this.jogadoresRanking.reduce((acc,x) => {
@@ -167,14 +170,18 @@ export class RankingComponent implements OnInit {
       for (var mes in this.jogosDoAno) {
         const mesNum = parseInt(mes);
         if ((this.isPeriodoMensal && mesNum !== this.mes)
-        || this.isPeriodoSemestral && ((this.semestre === 1 && mesNum >= 6)||(this.semestre === 2 && mesNum <= 6))) {
+        || this.isPeriodoSemestral && ((this.semestre === 1 && mesNum > 6)||(this.semestre === 2 && mesNum <= 6))) {
           continue;
         }
         for (var dia in this.jogosDoAno[mes]) {
           var jogo = this.jogosDoAno[mes][dia] as Jogo;
+          if (!jogo.jogadores_branco && !jogo.jogadores_verde) {
+            continue;
+          }
+          this.jogosConsiderados++;
 
           // Ranking por assiduidade
-          let todosJogadores = jogo.jogadores_branco.concat(jogo.jogadores_verde);
+          let todosJogadores = (jogo.jogadores_branco ?? []).concat(jogo.jogadores_verde ?? []);
           todosJogadores.forEach(j => {
             if (j in porAssiduidade) {
               porAssiduidade[j]++;
@@ -202,7 +209,7 @@ export class RankingComponent implements OnInit {
           });
 
           // Ranking de goleadores
-          jogo.eventos.forEach(evt => {
+          jogo.eventos?.forEach(evt => {
             // TODO gol contra?
             if (evt.tipo == TipoEventoJogoEnum.GOL) {
               if (evt.jogador in porGoleadores) {

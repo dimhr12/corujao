@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { Jogo } from '../shared/modelos/jogo';
 
-import { DataService } from '../shared/servicos/data.service';
 import { JogosService } from '../shared/servicos/jogos.service';
+import { DataUtil } from '../shared/util/data.util';
 
 @Component({
   selector: 'app-resultados',
@@ -17,7 +17,6 @@ export class ResultadosComponent implements OnInit {
   public jogo?: Jogo;
 
   constructor(
-    private dataService: DataService,
     private jogosService: JogosService
   ) { }
 
@@ -26,14 +25,17 @@ export class ResultadosComponent implements OnInit {
     this.inputData.valueChanges.subscribe((val: string) => this.selecionarData(val));
 
     this.jogosService.carregouJogos.subscribe(() => {
-      this.selecionarData('2021-01-16');
+      // Seleciona o último sábado
+      this.selecionarData(DataUtil.formatarDataEmIso(
+        DataUtil.isSabado() ? new Date() : DataUtil.obterDataUltimoSabado()
+      ))
+      // this.selecionarData('2022-03-19'); // Para debug
     });
   }
 
   selecionarData(dataIso: string) {
-    this.dataSelecionada = dataIso ? this.dataService.converterDataIsoParaDate(dataIso) : undefined;
+    this.dataSelecionada = dataIso ? DataUtil.converterDataIsoParaDate(dataIso) : undefined;
     this.jogo = this.jogosService.buscarJogoComDataIso(dataIso);
-    console.log(this.jogo);
   }
 
 }

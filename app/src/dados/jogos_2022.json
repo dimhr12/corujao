@@ -1,0 +1,1849 @@
+[
+  {
+    "data": "2022-01-01",
+    "jogadores_branco": [
+      "regis-witcak",
+      "fernando-andre-dembogurski",
+      "fernando-veit",
+      "rogerio-stein",
+      "dimas-rockenbach",
+      "alan-gabriel-fernandes-padilha",
+      "diego-woiciekoski",
+      "diego-avozani-polenta"
+    ],
+    "jogadores_verde": [
+      "luciano-winck",
+      "gabriel-hetwer",
+      "leandro-dahlem",
+      "sadi-dahlem",
+      "ulisses-rosso-junior-chupim",
+      "roger-eduardo-witcak",
+      "mateus-caraffa-casali-mire",
+      "eri-neguinho",
+      "tiago-motomaio"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "fernando-veit"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "diego-woiciekoski"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "diego-woiciekoski"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "ulisses-rosso-junior-chupim"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      }
+    ]
+  },
+  {
+    "data": "2022-01-08",
+    "jogadores_branco": [
+      "felipe-bode",
+      "gabriel-hetwer",
+      "eri-neguinho",
+      "gelson-monteiro",
+      "alan-gabriel-fernandes-padilha",
+      "henrique-marasca",
+      "mauro-burgel",
+      "fernando-veit"
+    ],
+    "jogadores_verde": [
+      "bruno-lopes-cardoso",
+      "douglas-faoro",
+      "leandro-dahlem",
+      "sadi-dahlem",
+      "dimas-rockenbach",
+      "diego-woiciekoski",
+      "mateus-caraffa-casali-mire",
+      "mimo",
+      "fernando-andre-dembogurski"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "henrique-marasca"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "henrique-marasca"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "henrique-marasca"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "fernando-veit"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "diego-woiciekoski"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "diego-woiciekoski"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL_CONTRA",
+        "time": "VERDE",
+        "jogador": "douglas-faoro"
+      }
+    ]
+  },
+  {
+    "data": "2022-01-22",
+    "jogadores_branco": [
+      "regis-witcak",
+      "douglas-faoro",
+      "sadi-dahlem",
+      "diego-avozani-polenta",
+      "alan-gabriel-fernandes-padilha",
+      "roger-eduardo-witcak",
+      "diego-woiciekoski",
+      "henrique-marasca"
+    ],
+    "jogadores_verde": [
+      "luciano-winck",
+      "gabriel-hetwer",
+      "guilherme-fabris",
+      "luan-cassol",
+      "dimas-rockenbach",
+      "gelson-monteiro",
+      "mauro-burgel",
+      "fernando-veit",
+      "fernando-andre-dembogurski"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "diego-avozani-polenta"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "diego-woiciekoski"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "diego-woiciekoski"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "henrique-marasca"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "henrique-marasca"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "gelson-monteiro"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mauro-burgel"
+      }
+    ]
+  },
+  {
+    "data": "2022-01-29",
+    "jogadores_branco": [
+      "regis-witcak",
+      "fernando-andre-dembogurski",
+      "sadi-dahlem",
+      "guilherme-fabris",
+      "dimas-rockenbach",
+      "fernando-veit",
+      "mateus-caraffa-casali-mire",
+      "pedrinho"
+    ],
+    "jogadores_verde": [
+      "ceara",
+      "gabriel-hetwer",
+      "eri-neguinho",
+      "douglas-faoro",
+      "henrique-marasca",
+      "gelson-monteiro",
+      "mauro-burgel",
+      "diego-avozani-polenta"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "eri-neguinho"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "eri-neguinho"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "eri-neguinho"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "diego-avozani-polenta"
+      },
+      {
+        "tipo": "GOL_CONTRA",
+        "time": "BRANCO",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL_CONTRA",
+        "time": "BRANCO",
+        "jogador": "fernando-andre-dembogurski"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "guilherme-fabris"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "pedrinho"
+      }
+    ]
+  },
+  {
+    "data": "2022-02-05",
+    "jogadores_branco": [
+      "ceara",
+      "gabriel-hetwer",
+      "douglas-faoro",
+      "eri-neguinho",
+      "claudionei-gewehr",
+      "alan-gabriel-fernandes-padilha",
+      "mauro-burgel"
+    ],
+    "jogadores_verde": [
+      "regis-witcak",
+      "fernando-andre-dembogurski",
+      "guilherme-fabris",
+      "mimo",
+      "roger-eduardo-witcak",
+      "dimas-rockenbach",
+      "mateus-caraffa-casali-mire"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "guilherme-fabris"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "guilherme-fabris"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "douglas-faoro"
+      }
+    ]
+  },
+  {
+    "data": "2022-02-12",
+    "jogadores_branco": [
+      "ceara",
+      "gabriel-hetwer",
+      "eri-neguinho",
+      "guilherme-fabris",
+      "roger-eduardo-witcak",
+      "alan-gabriel-fernandes-padilha",
+      "mauro-burgel"
+    ],
+    "jogadores_verde": [
+      "regis-witcak",
+      "douglas-faoro",
+      "sadi-dahlem",
+      "leandro-dahlem",
+      "dimas-rockenbach",
+      "mateus-caraffa-casali-mire",
+      "diogo-cansi"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "douglas-faoro"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "douglas-faoro"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "leandro-dahlem"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "diogo-cansi"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "diogo-cansi"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "diogo-cansi"
+      }
+    ]
+  },
+  {
+    "data": "2022-02-19",
+    "jogadores_branco": [
+      "ceara",
+      "sadi-dahlem",
+      "eri-neguinho",
+      "dimas-rockenbach",
+      "guilherme-fabris",
+      "giuliano-motta",
+      "rudimar-griebler-rudi",
+      "mauro-burgel"
+    ],
+    "jogadores_verde": [
+      "regis-witcak",
+      "mateus-caraffa-casali-mire",
+      "claudionei-gewehr",
+      "leandro-dahlem",
+      "roger-eduardo-witcak",
+      "gabriel-hetwer",
+      "alan-gabriel-fernandes-padilha"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "rudimar-griebler-rudi"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "rudimar-griebler-rudi"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "rudimar-griebler-rudi"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "rudimar-griebler-rudi"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "rudimar-griebler-rudi"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "giuliano-motta"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "claudionei-gewehr"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "leandro-dahlem"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "leandro-dahlem"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "leandro-dahlem"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "gabriel-hetwer"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL_CONTRA",
+        "time": "BRANCO",
+        "jogador": "dimas-rockenbach"
+      }
+    ]
+  },
+  {
+    "data": "2022-02-26",
+    "jogadores_branco": [
+      "regis-witcak",
+      "douglas-faoro",
+      "sadi-dahlem",
+      "luan-cassol",
+      "roger-eduardo-witcak",
+      "mauro-burgel",
+      "fernando-andre-dembogurski",
+      "antonio-dallavechia-tonhao"
+    ],
+    "jogadores_verde": [
+      "ceara",
+      "gabriel-hetwer",
+      "eri-neguinho",
+      "dimas-rockenbach",
+      "henrique-marasca",
+      "giuliano-motta",
+      "rudimar-griebler-rudi",
+      "fernando-veit"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "douglas-faoro"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "roger-eduardo-witcak"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      }
+    ]
+  },
+  {
+    "data": "2022-03-05",
+    "jogadores_branco": [
+      "regis-witcak",
+      "douglas-faoro",
+      "sadi-dahlem",
+      "claudionei-gewehr",
+      "dimas-rockenbach",
+      "mateus-caraffa-casali-mire",
+      "giuliano-motta"
+    ],
+    "jogadores_verde": [
+      "ceara",
+      "gabriel-hetwer",
+      "eri-neguinho",
+      "leandro-dahlem",
+      "roger-eduardo-witcak",
+      "mauro-burgel",
+      "alan-gabriel-fernandes-padilha"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "sadi-dahlem"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "giuliano-motta"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      }
+    ]
+  },
+  {
+    "data": "2022-03-12",
+    "jogadores_branco": [
+      "ceara",
+      "douglas-faoro",
+      "eri-neguinho",
+      "roger-eduardo-witcak",
+      "alan-gabriel-fernandes-padilha",
+      "mateus-caraffa-casali-mire",
+      "giuliano-motta"
+    ],
+    "jogadores_verde": [
+      "regis-witcak",
+      "gabriel-hetwer",
+      "sadi-dahlem",
+      "leandro-dahlem",
+      "dimas-rockenbach",
+      "mauro-burgel"
+    ],
+    "eventos": []
+  },
+  {
+    "data": "2022-03-19",
+    "mensagem": "Jogo cancelado pela chuva"
+  },
+  {
+    "data": "2022-03-26",
+    "jogadores_branco": [
+      "eduardo-erthal",
+      "marcel-knuppe-chiquinho",
+      "sadi-dahlem",
+      "giuliano-motta",
+      "alan-gabriel-fernandes-padilha",
+      "mauro-burgel",
+      "mimo"
+    ],
+    "jogadores_verde": [
+      "regis-witcak",
+      "douglas-faoro",
+      "guilherme-fabris",
+      "leandro-dahlem",
+      "dimas-rockenbach",
+      "mateus-caraffa-casali-mire",
+      "gabriel-hetwer"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "marcel-knuppe-chiquinho"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "marcel-knuppe-chiquinho"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "giuliano-motta"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "giuliano-motta"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "giuliano-motta"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "douglas-faoro"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "douglas-faoro"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "leandro-dahlem"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "leandro-dahlem"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      }
+    ]
+  },
+  {
+    "data": "2022-04-02",
+    "mensagem": "Os gols não foram anotados",
+    "jogadores_branco": [
+      "regis-witcak",
+      "douglas-faoro",
+      "sadi-dahlem",
+      "giuliano-motta",
+      "roger-eduardo-witcak",
+      "alan-gabriel-fernandes-padilha",
+      "mauro-burgel",
+      "chitao"
+    ],
+    "jogadores_verde": [
+      "goleiro",
+      "gabriel-hetwer",
+      "guilherme-fabris",
+      "leandro-dahlem",
+      "diogo-cansi",
+      "luan-cassol",
+      "mateus-caraffa-casali-mire",
+      "fernando-veit"
+    ]
+  },
+  {
+    "data": "2022-04-09",
+    "mensagem": "Jogo cancelado pela chuva"
+  },
+  {
+    "data": "2022-04-16",
+    "jogadores_branco": [
+      "diogo-cansi",
+      "gabriel-hetwer",
+      "sadi-dahlem",
+      "eri-neguinho",
+      "alan-gabriel-fernandes-padilha",
+      "roger-eduardo-witcak",
+      "mateus-caraffa-casali-mire"
+    ],
+    "jogadores_verde": [
+      "regis-witcak",
+      "douglas-faoro",
+      "guilherme-fabris",
+      "leandro-dahlem",
+      "claudionei-gewehr",
+      "dimas-rockenbach",
+      "giuliano-motta",
+      "rogerio-stein"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "douglas-faoro"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "claudionei-gewehr"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "giuliano-motta"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "giuliano-motta"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "giuliano-motta"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "giuliano-motta"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "sadi-dahlem"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "eri-neguinho"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "eri-neguinho"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "eri-neguinho"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "roger-eduardo-witcak"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mateus-caraffa-casali-mire"
+      }
+    ]
+  },
+  {
+    "data": "2022-04-23",
+    "mensagem": "Jogo cancelado pela chuva"
+  },
+  {
+    "data": "2022-04-30",
+    "mensagem": "Jogo cancelado pela chuva"
+  },
+  {
+    "data": "2022-05-07",
+    "jogadores_branco": [
+      "jonas-cassol",
+      "douglas-faoro",
+      "sadi-dahlem",
+      "giuliano-motta",
+      "dimas-rockenbach",
+      "claudionei-gewehr",
+      "mateus-caraffa-casali-mire",
+      "fernando-veit"
+    ],
+    "jogadores_verde": [
+      "regis-witcak",
+      "gabriel-hetwer",
+      "guilherme-fabris",
+      "leandro-dahlem",
+      "alan-gabriel-fernandes-padilha",
+      "roger-eduardo-witcak",
+      "mauro-burgel",
+      "marcel-knuppe-chiquinho"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "douglas-faoro"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "douglas-faoro"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "giuliano-motta"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "claudionei-gewehr"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "leandro-dahlem"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "marcel-knuppe-chiquinho"
+      }
+    ]
+  },
+  {
+    "data": "2022-05-14",
+    "jogadores_branco": [
+      "regis-witcak",
+      "douglas-faoro",
+      "guilherme-fabris",
+      "eri-neguinho",
+      "dimas-rockenbach",
+      "luan-cassol",
+      "mauro-burgel",
+      "fabio"
+    ],
+    "jogadores_verde": [
+      "jonas-cassol",
+      "sadi-dahlem",
+      "claudionei-gewehr",
+      "leandro-dahlem",
+      "alan-gabriel-fernandes-padilha",
+      "diogo-cansi",
+      "mateus-caraffa-casali-mire",
+      "fernando-veit"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "guilherme-fabris"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "guilherme-fabris"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "eri-neguinho"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "fabio"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "fabio"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "fabio"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "claudionei-gewehr"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "leandro-dahlem"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "fernando-veit"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "fernando-veit"
+      }
+    ]
+  },
+  {
+    "data": "2022-05-21",
+    "jogadores_branco": [
+      "goleiro",
+      "ernani-camargo",
+      "gerson-luis-daniel",
+      "eri-neguinho",
+      "alan-gabriel-fernandes-padilha",
+      "mateus-caraffa-casali-mire",
+      "mauro-burgel"
+    ],
+    "jogadores_verde": [
+      "goleiro",
+      "douglas-faoro",
+      "jones",
+      "leandro-dahlem",
+      "sadi-dahlem",
+      "luan-cassol",
+      "fabio",
+      "guilherme-fabris"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "ernani-camargo"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "gerson-luis-daniel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "eri-neguinho"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "eri-neguinho"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL_CONTRA",
+        "time": "VERDE",
+        "jogador": "douglas-faoro"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "douglas-faoro"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "guilherme-fabris"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "guilherme-fabris"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "guilherme-fabris"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "luan-cassol"
+      }
+    ]
+  },
+  {
+    "data": "2022-05-28",
+    "mensagem": "Jogo cancelado pela chuva"
+  },
+  {
+    "data": "2022-06-04",
+    "jogadores_branco": [
+      "eduardo",
+      "douglas-faoro",
+      "luan-cassol",
+      "mauro-burgel",
+      "eri-neguinho",
+      "roger-eduardo-witcak",
+      "fernando-veit",
+      "fabio"
+    ],
+    "jogadores_verde": [
+      "neide",
+      "alan-gabriel-fernandes-padilha",
+      "sadi-dahlem",
+      "leandro-dahlem",
+      "claudionei-gewehr",
+      "guilherme-fabris",
+      "mateus-caraffa-casali-mire",
+      "ernani-camargo"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "douglas-faoro"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "douglas-faoro"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "eri-neguinho"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "fernando-veit"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "fernando-veit"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "fabio"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "leandro-dahlem"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "claudionei-gewehr"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "claudionei-gewehr"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "claudionei-gewehr"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "guilherme-fabris"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "guilherme-fabris"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "guilherme-fabris"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "ernani-camargo"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "ernani-camargo"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "ernani-camargo"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "ernani-camargo"
+      },
+      {
+        "tipo": "GOL_CONTRA",
+        "time": "BRANCO",
+        "jogador": "douglas-faoro"
+      }
+    ]
+  },
+  {
+    "data": "2022-06-11",
+    "jogadores_branco": [
+      "luciano-winck",
+      "sadi-dahlem",
+      "douglas-faoro",
+      "claudionei-gewehr",
+      "luan-cassol",
+      "alan-gabriel-fernandes-padilha",
+      "mauro-burgel",
+      "fernando-veit",
+      "luis-henrique-wilkomm"
+    ],
+    "jogadores_verde": [
+      "regis-witcak",
+      "eri-neguinho",
+      "guilherme-fabris",
+      "giuliano-motta",
+      "roger-eduardo-witcak",
+      "dimas-rockenbach",
+      "mateus-caraffa-casali-mire",
+      "marcel-knuppe-chiquinho"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "claudionei-gewehr"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "fernando-veit"
+      },
+      {
+        "tipo": "GOL_CONTRA",
+        "time": "VERDE",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "eri-neguinho"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "guilherme-fabris"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "giuliano-motta"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "giuliano-motta"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "marcel-knuppe-chiquinho"
+      }
+    ]
+  },
+  {
+    "data": "2022-06-18",
+    "mensagem": "Jogo cancelado pela chuva"
+  },
+  {
+    "data": "2022-06-25",
+    "jogadores_branco": [
+      "regis-witcak",
+      "sadi-dahlem",
+      "douglas-faoro",
+      "guilherme-fabris",
+      "claudionei-gewehr",
+      "dimas-rockenbach",
+      "mauro-burgel",
+      "alan-gabriel-fernandes-padilha"
+    ],
+    "jogadores_verde": [
+      "luan-cassol",
+      "eri-neguinho",
+      "gabriel-hetwer",
+      "leandro-dahlem",
+      "roger-eduardo-witcak",
+      "fernando-veit",
+      "mateus-caraffa-casali-mire",
+      "henrique-marasca"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "guilherme-fabris"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "claudionei-gewehr"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mauro-burgel"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "alan-gabriel-fernandes-padilha"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "gabriel-hetwer"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "gabriel-hetwer"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "leandro-dahlem"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "mateus-caraffa-casali-mire"
+      }
+    ]
+  },
+  {
+    "data": "2022-07-02",
+    "jogadores_branco": [
+      "regis-witcak",
+      "marcel-knuppe-chiquinho",
+      "gabriel-hetwer",
+      "guilherme-fabris",
+      "luan-cassol",
+      "fernando-veit",
+      "mateus-caraffa-casali-mire",
+      "kleber-ristof"
+    ],
+    "jogadores_verde": [
+      "luciano-winck",
+      "sadi-dahlem",
+      "douglas-faoro",
+      "leandro-dahlem",
+      "dimas-rockenbach",
+      "henrique-marasca",
+      "claudionei-gewehr",
+      "rudimar-griebler-rudi"
+    ],
+    "eventos": [
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "gabriel-hetwer"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "luan-cassol"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "mateus-caraffa-casali-mire"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "kleber-ristof"
+      },
+      {
+        "tipo": "GOL",
+        "time": "BRANCO",
+        "jogador": "kleber-ristof"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "dimas-rockenbach"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "henrique-marasca"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "claudionei-gewehr"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "claudionei-gewehr"
+      },
+      {
+        "tipo": "GOL",
+        "time": "VERDE",
+        "jogador": "rudimar-griebler-rudi"
+      }
+    ]
+  }
+]
