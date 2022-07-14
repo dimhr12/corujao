@@ -34,13 +34,15 @@ for datajogo,ijogo in zip(jogos, range(0,len(jogos))):
         if dados_planilha[itbranco][ijplanilha]:
             jogadores_branco.append(dados_planilha[itbranco][ijplanilha])
 
-    dados.append({
+    jogo = {
         'data': datajogo,
-        'mensagem': mensagem,
         'jogadores_branco': jogadores_branco,
         'jogadores_verde': jogadores_verde,
         'eventos': [],
-    })
+    }
+    if mensagem:
+        jogo['mensagem'] = mensagem
+    dados.append(jogo)
 
 # Busca os eventos (gols) de cada jogo.
 # Precisa fazer isso depois de preencher os jogadores, pra saber de que time é cada jogador
@@ -60,9 +62,9 @@ for datajogo,ijogo in zip(jogos, range(0,len(jogos))):
                 jogador = evento.strip()
                 time = ''
                 if jogador in dados[ijogo]['jogadores_branco']:
-                    time = 'BRANCO'
+                    time = 'BRANCO' if tipo == 'GOL' else 'VERDE'
                 if jogador in dados[ijogo]['jogadores_verde']:
-                    time = 'VERDE'
+                    time = 'VERDE' if tipo == 'GOL' else 'BRANCO'
                 eventos.append({
                     'tipo': tipo,
                     'time': time,

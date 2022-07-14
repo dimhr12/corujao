@@ -16,6 +16,7 @@ import { JogadoresService } from '../../shared/servicos/jogadores.service';
 export class EventosPartidaComponent {
 
   @Input() jogo: Jogo;
+  @Input() mostrarEscalacao: boolean = true;
 
   public jogadores: Record<string, Jogador> = {};
 

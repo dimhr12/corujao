@@ -15,6 +15,29 @@
             <h3>{{ jogo.golsVerde }}</h3>
         </div>
     </div>
+    <div *ngIf="mostrarEscalacao" class="escalacao-partida">
+        <div class="eventos-esquerda">
+            <div *ngFor="let jogador of jogo.jogadores_branco" class="bloco-dados-evento">
+                <span [title]="getNomeCompletoJogador(jogador)">
+                    {{ getNomeJogador(jogador) }}
+                </span>
+            </div>
+        </div>
+        <div class="eventos-meio"></div>
+        <div class="eventos-direita">
+            <div *ngFor="let jogador of jogo.jogadores_verde" class="bloco-dados-evento">
+                <span></span>
+                <span [title]="getNomeCompletoJogador(jogador)">
+                    {{ getNomeJogador(jogador) }}
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="times-partida resultado text-center">
+        <span class="bloco-time"></span>
+        <h5 class="bloco-meio">GOLS</h5>
+        <span class="bloco-time"></span>
+    </div>
     <div class="eventos-partida">
         <div class="eventos-esquerda">
             <div *ngFor="let evento of getEventosTimeBranco()" class="bloco-dados-evento">

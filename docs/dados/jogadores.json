@@ -2,67 +2,67 @@
     {
         "id":"alan-gabriel-fernandes-padilha",
         "nome": "Alan",
-        "nome completo": "Alan Gabriel Fernandes Padilha",
+        "nome_completo": "Alan Gabriel Fernandes Padilha",
         "descricao": "Jovem promessa.",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "LAT"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "2001-03-03"
     },
     {
         "id":"antonio-dallavechia-tonhao",
         "nome": "Tonhão",
-        "nome completo": "Antônio Dallavechia",
+        "nome_completo": "Antônio Dallavechia",
         "descricao": "Goleador nato. Deixou saudades no Marílía-SP.",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1981-04-03"
     },
     {
         "id":"bruno-lopes-cardoso",
         "nome": "Bruno",
-        "nome completo": "Bruno Lopes Cardoso",
+        "nome_completo": "Bruno Lopes Cardoso",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ZAG"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1978-06-27"
     },
     {
         "id":"claudionei-gewehr",
         "nome": "Claudionei",
-        "nome completo": "Claudionei Gewehr",
+        "nome_completo": "Claudionei Gewehr",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1982-07-29"
     },
     {
         "id":"diego-avozani-polenta",
         "nome": "Polenta",
-        "nome completo": "Diego Avozani dos Santos",
+        "nome_completo": "Diego Avozani dos Santos",
         "descricao": "Chute folha seca",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1989-10-12"
     },
     {
         "id":"diego-woiciekoski",
         "nome": "Diego",
-        "nome completo": "Diego Woiciekoski",
+        "nome_completo": "Diego Woiciekoski",
         "descricao": "Personal obes... digo, trainer.",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ATA", "MEC"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1984-06-17"
     },
     {
         "id":"dimas-rockenbach",
         "nome": "Dimas",
-        "nome completo": "Dimas Henrique Rockenbach",
+        "nome_completo": "Dimas Henrique Rockenbach",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ZAG", "MEC", "ATA"],
@@ -72,27 +72,17 @@
     {
         "id":"diogo-cansi",
         "nome": "Diogo",
-        "nome completo": "Diogo Sawitzki Cansi",
+        "nome_completo": "Diogo Sawitzki Cansi",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1984-01-24"
     },
     {
         "id":"douglas-faoro",
         "nome": "Faoro",
-        "nome completo": "Douglas Faoro",
-        "descricao": "Já esteve em melhores condições físicas",
-        "imagem": "assets/img/jogador2.png",
-        "posicao": ["ZAG", "LAT"],
-        "altura": 170,
-        "nascimento": "1970-01-01"
-    },
-    {
-        "id":"eri-neguinho",
-        "nome": "Neguinho",
-        "nome completo": "Eri",
+        "nome_completo": "Douglas Faoro",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ZAG", "LAT"],
@@ -102,27 +92,37 @@
     {
         "id":"eduardo-dallavechia-bola",
         "nome": "Bola",
-        "nome completo": "Eduardo Dallavechia",
+        "nome_completo": "Eduardo Dallavechia",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["GOL"],
+        "altura": 170,
+        "nascimento": "1991-04-15"
+    },
+    {
+        "id":"eri-neguinho",
+        "nome": "Neguinho",
+        "nome_completo": "Eri",
+        "descricao": "Já esteve em melhores condições físicas",
+        "imagem": "assets/img/jogador2.png",
+        "posicao": ["ZAG", "LAT"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
     {
         "id":"ernani-camargo",
         "nome": "Nani",
-        "nome completo": "Ernani Camargo",
+        "nome_completo": "Ernani Camargo",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "LAT"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1985-06-11"
     },
     {
         "id":"fernando-andre-dembogurski",
         "nome": "Tabajara",
-        "nome completo": "Fernando André Dembogurski",
+        "nome_completo": "Fernando André Dembogurski",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ZAG", "ATA"],
@@ -132,7 +132,7 @@
     {
         "id":"fernando-veit",
         "nome": "Veit",
-        "nome completo": "Fernando Veit",
+        "nome_completo": "Fernando Veit",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "LAT"],
@@ -142,37 +142,27 @@
     {
         "id":"gabriel-hetwer",
         "nome": "Gabriel",
-        "nome completo": "Gabriel Hetwer Dias",
+        "nome_completo": "Gabriel Hetwer Dias",
         "descricao": "Zagueiro raiz, não perde a viagem. Pode passar a bola ou o jogador. Os dois, não.",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ZAG"],
         "altura": 170,
-        "nascimento": "1970-01-01"
-    },
-    {
-        "id":"gelson-monteiro",
-        "nome": "Gelson",
-        "nome completo": "Gelson Monteiro",
-        "descricao": "Já esteve em melhores condições físicas",
-        "imagem": "assets/img/jogador2.png",
-        "posicao": ["MEC", "LAT"],
-        "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1977-10-22"
     },
     {
         "id":"gerson-luis-daniel",
         "nome": "Chico Daniel",
-        "nome completo": "Gerson Luís Daniel",
+        "nome_completo": "Gerson Luís Daniel",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1970-07-01"
     },
     {
         "id":"gerson-thomazi",
         "nome": "Gerson",
-        "nome completo": "Gerson Thomazi",
+        "nome_completo": "Gerson Thomazi",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["GOL"],
@@ -182,7 +172,7 @@
     {
         "id":"giuliano-motta",
         "nome": "Motta",
-        "nome completo": "Giuliano Motta",
+        "nome_completo": "Giuliano Motta",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["LAT", "ATA"],
@@ -192,7 +182,7 @@
     {
         "id":"guilherme-fabris",
         "nome": "Fabris",
-        "nome completo": "Guilherme Fabris",
+        "nome_completo": "Guilherme Fabris",
         "descricao": "Ramiro!",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["LAT"],
@@ -202,17 +192,17 @@
     {
         "id":"henrique-marasca",
         "nome": "Henrique",
-        "nome completo": "Henrique Marasca",
+        "nome_completo": "Henrique Marasca",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1988-10-20"
     },
     {
         "id":"jaques-beck",
         "nome": "Jaques",
-        "nome completo": "Jaques Beck",
+        "nome_completo": "Jaques Beck",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ATA"],
@@ -220,19 +210,19 @@
         "nascimento": "1970-01-01"
     },
     {
-        "id":"jardel-thomazi-tato",
-        "nome": "Tato",
-        "nome completo": "Jardel Thomazi",
+        "id":"jonas-cassol",
+        "nome": "Jonas",
+        "nome_completo": "Jonas Cassol",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
-        "posicao": ["LAT"],
+        "posicao": ["GOL"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
     {
         "id":"kleber-ristof",
         "nome": "Kleber",
-        "nome completo": "Kleber Ristof",
+        "nome_completo": "Kleber Ristof",
         "descricao": "Jogando em SP",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
@@ -242,7 +232,7 @@
     {
         "id":"leandro-dahlem",
         "nome": "Leandro",
-        "nome completo": "Leandro Dahlem",
+        "nome_completo": "Leandro André Dahlem",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["LAT"],
@@ -252,27 +242,27 @@
     {
         "id":"leonardo-dahlem-loli",
         "nome": "Loli",
-        "nome completo": "Leonardo Dahlem",
+        "nome_completo": "Leonardo Dahlem",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1995-08-11"
     },
     {
         "id":"luan-cassol",
         "nome": "Luan",
-        "nome completo": "Luan Cassol",
-        "descricao": "Soneca",
+        "nome_completo": "Luan Cassol",
+        "descricao": "Showman",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1989-04-22"
     },
     {
         "id":"luciano-winck",
         "nome": "Winck",
-        "nome completo": "Luciano Winck",
+        "nome_completo": "Luciano Winck",
         "descricao": "Passarinho",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["GOL"],
@@ -282,127 +272,87 @@
     {
         "id":"luis-henrique-wilkomm",
         "nome": "Wilkomm",
-        "nome completo": "Luís Henrique Wilkomm",
+        "nome_completo": "Luís Henrique Wilkomm",
         "descricao": "Eterno 3 preto",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["LAT"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1998-03-22"
     },
     {
         "id":"luiz-fernando-fiorim",
         "nome": "Fiorim",
-        "nome completo": "Luiz Fernando Fiorim",
+        "nome_completo": "Luiz Fernando Fiorim",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["LAT"],
         "altura": 170,
-        "nascimento": "1970-01-01"
-    },
-    {
-        "id":"magnus-sartori-gaita",
-        "nome": "Gaita",
-        "nome completo": "Magnus Sartori",
-        "descricao": "Em recuperação no Departamento Médico",
-        "imagem": "assets/img/jogador2.png",
-        "posicao": ["LAT"],
-        "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1984-03-05"
     },
     {
         "id":"marcel-knuppe-chiquinho",
         "nome": "Chiquinho",
-        "nome completo": "Marcel Knüppe",
+        "nome_completo": "Marcel Knüppe",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["LAT"],
-        "altura": 170,
-        "nascimento": "1970-01-01"
-    },
-    {
-        "id":"marcelo-streicher",
-        "nome": "Marcelo",
-        "nome completo": "Marcelo Streicher",
-        "descricao": "Gêmeos",
-        "imagem": "assets/img/jogador2.png",
-        "posicao": ["GOL"],
-        "altura": 170,
-        "nascimento": "1970-01-01"
-    },
-    {
-        "id":"marcos-benedetti-corso",
-        "nome": "Corso",
-        "nome completo": "Marcos Vinícius Benedetti Corso",
-        "descricao": "Prefeito",
-        "imagem": "assets/img/jogador2.png",
-        "posicao": ["MEC", "ATA"],
         "altura": 170,
         "nascimento": "1970-01-01"
     },
     {
         "id":"mateus-caraffa-casali-mire",
         "nome": "Mire",
-        "nome completo": "Mateus Caraffa Casali",
+        "nome_completo": "Mateus Caraffa Casali",
         "descricao": "Goleador, sangue GELADO na frente do goleiro",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1978-07-29"
     },
     {
         "id":"mauricio-streicher",
         "nome": "Maurício",
-        "nome completo": "Maurício Streicher",
+        "nome_completo": "Maurício Streicher",
         "descricao": "Gêmeos",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "LAT"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1988-07-14"
     },
     {
         "id":"mauro-burgel",
         "nome": "Mauro",
-        "nome completo": "Mauro Burgel",
+        "nome_completo": "Mauro Burgel",
         "descricao": "Goleador Tardelli, consegue fazer mais difícil!",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1970-07-25"
     },
     {
         "id":"murilo-hoffmann",
         "nome": "Murilo",
-        "nome completo": "Murilo Hoffmann",
+        "nome_completo": "Murilo Hoffmann",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC"],
         "altura": 170,
-        "nascimento": "1970-01-01"
-    },
-    {
-        "id":"pedro-jair-sulzbach-de-mello-mimo",
-        "nome": "Mimo",
-        "nome completo": "Pedro Jair Sulzbach de Mello",
-        "descricao": "Já esteve em melhores condições físicas",
-        "imagem": "assets/img/jogador2.png",
-        "posicao": ["LAT"],
-        "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1985-03-04"
     },
     {
         "id":"regis-witcak",
         "nome": "Régis",
-        "nome completo": "Régis Witcak",
+        "nome_completo": "Régis Witcak",
         "descricao": "Goleiro que cresce debaixo dos paus",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["GOL"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1990-04-21"
     },
     {
         "id":"ricardo-segatto",
         "nome": "Segatto",
-        "nome completo": "Ricardo Segatto",
+        "nome_completo": "Ricardo Segatto",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["GOL"],
@@ -412,7 +362,7 @@
     {
         "id":"roger-eduardo-witcak",
         "nome": "Róger",
-        "nome completo": "Róger Eduardo Witcak",
+        "nome_completo": "Róger Eduardo Witcak",
         "descricao": "Capitão e transador. É o que ele diz.",
         "imagem": "assets/img/jogadoresCard/roger.jpg",
         "posicao": ["MEC"],
@@ -422,27 +372,27 @@
     {
         "id":"rogerio-stein",
         "nome": "Stein",
-        "nome completo": "Rogério Stein",
+        "nome_completo": "Rogério Stein",
         "descricao": "Canhotinha de ouro",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["LAT"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1970-09-24"
     },
     {
         "id":"rudimar-griebler-rudi",
         "nome": "Rudi",
-        "nome completo": "Rudimar Griebler",
+        "nome_completo": "Rudimar Griebler",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1970-04-19"
     },
     {
         "id":"sadi-dahlem",
         "nome": "Sadi",
-        "nome completo": "Sadi Dahlem",
+        "nome_completo": "Sadi Dahlem",
         "descricao": "Velhinho conhece todos os atalhos. Ainda corre mais que muito guri",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["LAT", "ZAG"],
@@ -452,17 +402,17 @@
     {
         "id":"tiago-schneider-puffe",
         "nome": "Puffe",
-        "nome completo": "Tiago Schneider",
+        "nome_completo": "Tiago Schneider",
         "descricao": "Pinto, sempre entrando por trás",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "ATA"],
         "altura": 170,
-        "nascimento": "1970-01-01"
+        "nascimento": "1970-11-14"
     },
     {
         "id":"ulisses-rosso-junior-chupim",
         "nome": "Chupim",
-        "nome completo": "Ulisses Rosso Júnior",
+        "nome_completo": "Ulisses Rosso Júnior",
         "descricao": "Já esteve em melhores condições físicas",
         "imagem": "assets/img/jogador2.png",
         "posicao": ["MEC", "LAT"],
